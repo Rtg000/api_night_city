@@ -1,4 +1,4 @@
-import { Column, Entity, PrimaryColumn } from "typeorm";
+import { Column, CreateDateColumn, Entity, PrimaryColumn } from "typeorm";
 
 // @Entity('user')
 @Entity({
@@ -42,20 +42,33 @@ export class User {
 
     @Column('varchar',{
         array: true,
-        
+
     })
     roles: string[];
 
-    @Column()
-    logo: string;
+    @Column('varchar',{
+        name: 'logo',
+        nullable: true,
+        unique: false,
+        length: 150
+    })
+    logo: string; // ruta public/images/
     
-    @Column()
-    instagram: string;
+    @Column('varchar',{
+        name: 'instagram',
+        nullable: true,
+        unique: false,
+        length: 150
+    })    instagram: string;
 
-    @Column()
+    @CreateDateColumn({
+        name: 'created_at'
+    })
     createdAt: Date;
 
-    @Column()
+    @CreateDateColumn({
+        name: 'updated_at'
+    })
     updatedAt: Date;
 
 }

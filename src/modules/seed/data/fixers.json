@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "nombre": "Rogue Amendiares",
+    "edad": "",
+    "región": ""
+  },
+  {
+    "id": "2",
+    "nombre": "Regina Jones",
+    "edad": "",
+    "región": "Watson"
+  },
+  {
+    "id": "3",
+    "nombre": "Dakota Smith",
+    "edad": "",
+    "región": "Badlands"
+  },
+  {
+    "id": "4",
+    "nombre": "Sebastian 'El Padre' Ibarra",
+    "edad": "",
+    "región": "Heywood"
+  },
+  {
+    "id": "5",
+    "nombre": "Dino Dinovic",
+    "edad": "",
+    "región": "Center District"
+  },
+  {
+    "id": "6",
+    "nombre": "Wakako Okada",
+    "edad": "",
+    "región": "Westbrook"
+  },
+  {
+    "id": "7",
+    "nombre": "Muamar 'El Capitan' Reyes",
+    "edad": "",
+    "región": "Santo Domingo"
+  },
+  {
+    "id": "8",
+    "nombre": "Mr. Hands",
+    "edad": "",
+    "región": "Pacifica"
+  }
+]

@@ -52,5 +52,23 @@
     "nombre": "Lucyna Kushinada",
     "edad": "",
     "afiliacion": "Merc"
+  },
+  {
+    "id": "10",
+    "nombre": "Alejandra Xenakis",
+    "edad": "",
+    "afiliacion": "FIA"
+  },
+  {
+    "id": "11",
+    "nombre": "Mitch Anderson",
+    "edad": "",
+    "afiliacion": "Aldecaldos"
+  },
+  {
+    "id": "12",
+    "nombre": "Misty Olszewski",
+    "edad": "",
+    "afiliacion": ""
   }
 ]
