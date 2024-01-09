@@ -1,1 +1,11 @@
-export class CreateGangDto {}
+import { IsString } from "class-validator";
+
+export class CreateGangDto {
+
+    @IsString()
+    id: string;
+
+    @IsString()
+    nombre: string;
+
+}
