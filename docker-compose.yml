@@ -1,0 +1,16 @@
+version: '3'
+services:
+  db:
+    image: postgres
+    restart: always 
+    env_file:
+      - ./.env
+    environment:
+      - "POSTGRES_DB=${DB_NAME}"
+      - "POSTGRES_USER=${DB_USERNAME}"
+      - "POSTGRES_PASSWORD=${DB_PASSWORD}"
+    container_name: night_cityDB
+    ports:
+      - "${DB_PORT}:5432"
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
