@@ -30,6 +30,18 @@ export class CorpoService {
     }
   }
 
+  async deleteAllCorpo(){
+    const query = this.corpoRepository.createQueryBuilder('corpo');
+    try{
+      return await query
+        .delete()
+        .where({})
+        .execute()
+    }catch{
+      throw new InternalServerErrorException('Bruh borrado corpo')
+    }
+  }
+
   // create(createCorpoDto: CreateCorpoDto) {
   //   return 'This action adds a new corpo';
   // }

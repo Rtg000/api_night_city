@@ -27,7 +27,7 @@ export class SeedService {
   }
 
   private async insertNewChoomba(){
-    // await this.autorService.deleteAllChoomba();
+    await this.choombaService.deleteAllChoomba();
     const insertPromiseChoomba = [];
     seedChoombas.forEach( (choomba: CreateChoombaDto) => {
       console.log(choomba.id);
@@ -38,6 +38,7 @@ export class SeedService {
   }
 
   private async insertNewCorpo(){
+    await this.corpoService.deleteAllCorpo();
     const insertPromiseCorpo = [];
     seedCorpos.forEach( (corpo: CreateCorpoDto) => {
       console.log(corpo.id);
@@ -48,6 +49,7 @@ export class SeedService {
   }
 
   private async insertNewGang(){
+    await this.gangService.deleteAllGang();
     const insertPromiseGang = [];
     seedGangs.forEach( (gang: CreateGangDto) => {
       console.log(gang.id);

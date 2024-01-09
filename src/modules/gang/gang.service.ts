@@ -30,6 +30,18 @@ export class GangService {
     }
   }
 
+  async deleteAllGang(){
+    const query = this.gangRepository.createQueryBuilder('gang');
+    try{
+      return await query
+        .delete()
+        .where({})
+        .execute()
+    }catch{
+      throw new InternalServerErrorException('Bruh borrado gang')
+    }
+  }
+
   // create(createGangDto: CreateGangDto) {
   //   return 'This action adds a new gang';
   // }

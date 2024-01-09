@@ -30,6 +30,18 @@ export class ChoombaService {
     }
   }
 
+  async deleteAllChoomba(){
+    const query = this.choombaRepository.createQueryBuilder('choomba');
+    try{
+      return await query
+        .delete()
+        .where({})
+        .execute()
+    }catch{
+      throw new InternalServerErrorException('Bruh borrado choomba')
+    }
+  }
+
   // create(createChoombaDto: CreateChoombaDto) {
   //   return 'This action adds a new choomba';
   // }
