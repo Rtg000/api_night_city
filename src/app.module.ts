@@ -21,10 +21,10 @@ import { SeedModule } from './modules/seed/seed.module';
       autoLoadEntities: true,
       synchronize: true,
     }),
+    SeedModule,
     ChoombaModule,
     CorpoModule,
-    GangModule,
-    SeedModule
+    GangModule
   ],
   controllers: [AppController],
   providers: [AppService],

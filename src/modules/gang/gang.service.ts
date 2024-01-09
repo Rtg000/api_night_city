@@ -1,12 +1,38 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, InternalServerErrorException, Post } from '@nestjs/common';
 import { CreateGangDto } from './dto/create-gang.dto';
 import { UpdateGangDto } from './dto/update-gang.dto';
+import { Repository } from 'typeorm';
+import { Gang } from './entities/gang.entity';
+import { InjectRepository } from '@nestjs/typeorm';
 
 @Injectable()
 export class GangService {
-  create(createGangDto: CreateGangDto) {
-    return 'This action adds a new gang';
+  constructor(
+    @InjectRepository(Gang)
+    private readonly gangRepository: Repository<Gang>
+  ){
+
   }
+  
+  @Post()
+  async create(createGangDto: CreateGangDto) {
+    try{
+      const gang = this.gangRepository.create(createGangDto);
+      await this.gangRepository.save(gang); 
+    return{
+      msg: 'Registro insertado',
+      data: gang,
+      status: 200
+    };
+    }catch(error){
+      console.log(error);
+      throw new InternalServerErrorException('Bruh gang')
+    }
+  }
+
+  // create(createGangDto: CreateGangDto) {
+  //   return 'This action adds a new gang';
+  // }
 
   findAll() {
     return `This action returns all gang`;
