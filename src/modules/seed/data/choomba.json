@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "nombre": "Johnny Silverhand",
+    "edad": "",
+    "afiliacion": ""
+  },
+  {
+    "id": "2",
+    "nombre": "Jackie Welles",
+    "edad": "",
+    "afiliacion": "Valentinos"
+  },
+  {
+    "id": "3",
+    "nombre": "Song So Mi",
+    "edad": "",
+    "afiliacion": "FIA"
+  },
+  {
+    "id": "4",
+    "nombre": "Solomon Reed",
+    "edad": "",
+    "afiliacion": "FIA"
+  },
+  {
+    "id": "5",
+    "nombre": "Viktor Vektor",
+    "edad": "",
+    "afiliacion": ""
+  },
+  {
+    "id": "6",
+    "nombre": "Panam Palmer",
+    "edad": "",
+    "afiliacion": "Aldecaldos"
+  },
+  {
+    "id": "7",
+    "nombre": "Judy Alvarez",
+    "edad": "",
+    "afiliacion": "The Mox"
+  },
+  {
+    "id": "8",
+    "nombre": "David Martinez",
+    "edad": "",
+    "afiliacion": "Merc"
+  },
+  {
+    "id": "9",
+    "nombre": "Lucyna Kushinada",
+    "edad": "",
+    "afiliacion": "Merc"
+  }
+]
