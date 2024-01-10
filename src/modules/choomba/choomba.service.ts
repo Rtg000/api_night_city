@@ -42,6 +42,15 @@ export class ChoombaService {
     }
   }
 
+  findOne(id: string) {
+    const choomba = this.choombaRepository.findOne({
+      where:{
+        id
+      }
+    });
+    return choomba;
+  }
+
   // create(createChoombaDto: CreateChoombaDto) {
   //   return 'This action adds a new choomba';
   // }
@@ -50,9 +59,9 @@ export class ChoombaService {
     return `This action returns all choomba`;
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} choomba`;
-  }
+  // findOne(id: number) {
+  //   return `This action returns a #${id} choomba`;
+  // }
 
   update(id: number, updateChoombaDto: UpdateChoombaDto) {
     return `This action updates a #${id} choomba`;

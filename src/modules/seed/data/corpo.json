@@ -42,5 +42,21 @@
   {
     "id": "11",
     "nombre": "QianT"
+  },
+  {
+    "id": "12",
+    "nombre": "Tetratronic"
+  },
+  {
+    "id": "13",
+    "nombre": "Petrochem"
+  },
+  {
+    "id": "15",
+    "nombre": "Tsunami Defense Systems"
+  },
+  {
+    "id": "16",
+    "nombre": "Raven Microcybernetics"
   }
 ]

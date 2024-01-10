@@ -55,7 +55,7 @@
   },
   {
     "id": "10",
-    "nombre": "Alejandra Xenakis",
+    "nombre": "Alena Xenakis",
     "edad": "",
     "afiliacion": "FIA"
   },
@@ -68,6 +68,24 @@
   {
     "id": "12",
     "nombre": "Misty Olszewski",
+    "edad": "",
+    "afiliacion": ""
+  },
+  {
+    "id": "13",
+    "nombre": "Evelyn Parker",
+    "edad": "",
+    "afiliacion": "The Mox"
+  },
+  {
+    "id": "14",
+    "nombre": "T-Bug",
+    "edad": "",
+    "afiliacion": "Merc"
+  },
+  {
+    "id": "15",
+    "nombre": "Kerry Eurodyne",
     "edad": "",
     "afiliacion": ""
   }

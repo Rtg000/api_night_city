@@ -8,22 +8,27 @@ import { CreateChoombaDto } from '../choomba/dto/create-choomba.dto';
 import * as seedChoombas from './data/choomba.json';
 import * as seedCorpos from './data/corpo.json';
 import * as seedGangs from './data/gang.json';
+import * as seedFixers from './data/fixers.json';
 import { CreateCorpoDto } from '../corpo/dto/create-corpo.dto';
 import { CreateGangDto } from '../gang/dto/create-gang.dto';
+import { CreateFixerDto } from '../fixer/dto/create-fixer.dto';
+import { FixerService } from '../fixer/fixer.service';
 
 @Injectable()
 export class SeedService {
   constructor (
     private readonly choombaService: ChoombaService,
     private readonly corpoService: CorpoService,
-    private readonly gangService: GangService
+    private readonly gangService: GangService,
+    private readonly fixerService: FixerService
   ){}
   // constructor (private readonly libroService: LibroService){}
 
   public async loadData(){
     await this.insertNewChoomba(),
     await this.insertNewCorpo(),
-    await this.insertNewGang()
+    await this.insertNewGang(),
+    await this.insertNewFixer()
   }
 
   private async insertNewChoomba(){
@@ -56,6 +61,17 @@ export class SeedService {
       insertPromiseGang.push(this.gangService.create(gang));
     })
     const results = await Promise.all(insertPromiseGang);
+    return true;
+  }
+
+  private async insertNewFixer(){
+    await this.fixerService.deleteAllFixer();
+    const insertPromiseFixer = [];
+    seedFixers.forEach( (fixer: CreateFixerDto) => {
+      console.log(fixer.id);
+      insertPromiseFixer.push(this.fixerService.create(fixer));
+    })
+    const results = await Promise.all(insertPromiseFixer);
     return true;
   }
 
