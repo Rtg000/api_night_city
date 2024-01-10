@@ -19,7 +19,7 @@ export class GangController {
 
   @Get(':id')
   findOne(@Param('id') id: string) {
-    return this.gangService.findOne(+id);
+    return this.gangService.findOne(id);
   }
 
   @Patch(':id')

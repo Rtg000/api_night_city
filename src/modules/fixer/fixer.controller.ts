@@ -19,7 +19,7 @@ export class FixerController {
 
   @Get(':id')
   findOne(@Param('id') id: string) {
-    return this.fixerService.findOne(+id);
+    return this.fixerService.findOne(id);
   }
 
   @Patch(':id')

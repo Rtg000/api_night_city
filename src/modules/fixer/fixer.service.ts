@@ -26,7 +26,7 @@ export class FixerService {
     };
     }catch(error){
       console.log(error);
-      throw new InternalServerErrorException('Bruh fixer')
+      throw new InternalServerErrorException('Error al crear fixer')
     }
   }
 
@@ -38,20 +38,30 @@ export class FixerService {
         .where({})
         .execute()
     }catch{
-      throw new InternalServerErrorException('Bruh borrado fixer')
+      throw new InternalServerErrorException('Error al borrar fixer')
     }
   }
-  
-  // create(createFixerDto: CreateFixerDto) {
-  //   return 'This action adds a new fixer';
-  // }
 
-  findAll() {
-    return `This action returns all fixer`;
+  findOne(id: string) {
+    const fixer = this.fixerRepository.findOne({
+      where:{
+        id
+      }
+    });
+    return fixer;
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} fixer`;
+  async findAll() {
+    try {
+      const fixer = await this.fixerRepository.find()
+      return {
+        data: fixer,
+        message: 'Listado de fixers',
+        status: 200
+      }
+    }catch(error){
+      throw new InternalServerErrorException('Error al listar fixers')
+    }
   }
 
   update(id: number, updateFixerDto: UpdateFixerDto) {

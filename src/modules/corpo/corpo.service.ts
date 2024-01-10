@@ -26,7 +26,7 @@ export class CorpoService {
     };
     }catch(error){
       console.log(error);
-      throw new InternalServerErrorException('Bruh corpo')
+      throw new InternalServerErrorException('Error al crear corpo')
     }
   }
 
@@ -38,20 +38,30 @@ export class CorpoService {
         .where({})
         .execute()
     }catch{
-      throw new InternalServerErrorException('Bruh borrado corpo')
+      throw new InternalServerErrorException('Error al borrar corpo')
     }
   }
 
-  // create(createCorpoDto: CreateCorpoDto) {
-  //   return 'This action adds a new corpo';
-  // }
-
-  findAll() {
-    return `This action returns all corpo`;
+  findOne(id: string) {
+    const corpo = this.corpoRepository.findOne({
+      where:{
+        id
+      }
+    });
+    return corpo;
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} corpo`;
+  async findAll() {
+    try {
+      const corpo = await this.corpoRepository.find()
+      return {
+        data: corpo,
+        message: 'Listado de corpos',
+        status: 200
+      }
+    }catch(error){
+      throw new InternalServerErrorException('Error al listar corpos')
+    }
   }
 
   update(id: number, updateCorpoDto: UpdateCorpoDto) {

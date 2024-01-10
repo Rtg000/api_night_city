@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
+import { Controller, Get, Post, Body, Patch, Param, Delete, Query } from '@nestjs/common';
 import { ChoombaService } from './choomba.service';
 import { CreateChoombaDto } from './dto/create-choomba.dto';
 import { UpdateChoombaDto } from './dto/update-choomba.dto';
@@ -19,7 +19,7 @@ export class ChoombaController {
 
   @Get(':id')
   findOne(@Param('id') id: string) {
-    return this.choombaService.findOne(+id);
+    return this.choombaService.findOne(id);
   }
 
   @Patch(':id')

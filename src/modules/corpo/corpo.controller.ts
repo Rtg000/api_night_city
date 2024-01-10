@@ -19,7 +19,7 @@ export class CorpoController {
 
   @Get(':id')
   findOne(@Param('id') id: string) {
-    return this.corpoService.findOne(+id);
+    return this.corpoService.findOne(id);
   }
 
   @Patch(':id')

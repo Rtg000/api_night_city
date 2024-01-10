@@ -26,7 +26,7 @@ export class ChoombaService {
     };
     }catch(error){
       console.log(error);
-      throw new InternalServerErrorException('Bruh choomba')
+      throw new InternalServerErrorException('Error al crear choomba')
     }
   }
 
@@ -38,7 +38,7 @@ export class ChoombaService {
         .where({})
         .execute()
     }catch{
-      throw new InternalServerErrorException('Bruh borrado choomba')
+      throw new InternalServerErrorException('Error al borrar choomba')
     }
   }
 
@@ -51,17 +51,18 @@ export class ChoombaService {
     return choomba;
   }
 
-  // create(createChoombaDto: CreateChoombaDto) {
-  //   return 'This action adds a new choomba';
-  // }
-
-  findAll() {
-    return `This action returns all choomba`;
+  async findAll() {
+    try {
+      const choomba = await this.choombaRepository.find()
+      return {
+        data: choomba,
+        message: 'Listado de choombas',
+        status: 200
+      }
+    }catch(error){
+      throw new InternalServerErrorException('Error al listar choombas')
+    }
   }
-
-  // findOne(id: number) {
-  //   return `This action returns a #${id} choomba`;
-  // }
 
   update(id: number, updateChoombaDto: UpdateChoombaDto) {
     return `This action updates a #${id} choomba`;
