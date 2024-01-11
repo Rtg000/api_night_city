@@ -8,5 +8,13 @@ export class Fixer {
 
     @Column()
     nombre: string;
-    
+ 
+    @Column('int',{
+        nullable: true
+    })
+    edad?: number;
+
+    @Column()
+    distrito: string;
+
 }

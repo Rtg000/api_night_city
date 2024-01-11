@@ -59,7 +59,8 @@ export class User {
         nullable: true,
         unique: false,
         length: 150
-    })    instagram: string;
+    })
+    instagram: string;
 
     @CreateDateColumn({
         name: 'created_at'

@@ -1,4 +1,4 @@
-import { IsString } from "class-validator";
+import { IsNumber, IsOptional, IsString } from "class-validator";
 
 export class CreateFixerDto {
 
@@ -7,5 +7,12 @@ export class CreateFixerDto {
 
     @IsString()
     nombre: string;
+
+    @IsNumber()
+    @IsOptional()
+    edad: number;
+
+    @IsString()
+    distrito: string;
 
 }

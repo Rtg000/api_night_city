@@ -1,4 +1,4 @@
-import { IsString } from "class-validator";
+import { IsNumber, IsOptional, IsString } from "class-validator";
 
 export class CreateChoombaDto {
 
@@ -8,8 +8,9 @@ export class CreateChoombaDto {
     @IsString()
     nombre: string;
 
-    @IsString()
-    edad: string;
+    @IsNumber()
+    @IsOptional()
+    edad: number;
 
     @IsString()
     afiliacion: string;

@@ -2,55 +2,55 @@
   {
     "id": "1",
     "nombre": "Rogue Amendiares",
-    "edad": "",
+    "edad": null,
     "distrito": ""
   },
   {
     "id": "2",
     "nombre": "Regina Jones",
-    "edad": "",
+    "edad": null,
     "distrito": "Watson"
   },
   {
     "id": "3",
     "nombre": "Dakota Smith",
-    "edad": "",
+    "edad": null,
     "distrito": "Badlands"
   },
   {
     "id": "4",
     "nombre": "Sebastian 'El Padre' Ibarra",
-    "edad": "",
+    "edad": null,
     "distrito": "Heywood"
   },
   {
     "id": "5",
     "nombre": "Dino Dinovic",
-    "edad": "",
+    "edad": null,
     "distrito": "Center District"
   },
   {
     "id": "6",
     "nombre": "Wakako Okada",
-    "edad": "",
+    "edad": null,
     "distrito": "Westbrook"
   },
   {
     "id": "7",
     "nombre": "Muamar 'El Capitan' Reyes",
-    "edad": "",
+    "edad": null,
     "distrito": "Santo Domingo"
   },
   {
     "id": "8",
     "nombre": "Wade 'Mr. Hands' Bleecker",
-    "edad": "",
+    "edad": null,
     "distrito": "Pacifica"
   },
   {
     "id": "9",
     "nombre": "Dexter DeShawn",
-    "edad": "",
+    "edad": null,
     "distrito": ""
   }
 ]

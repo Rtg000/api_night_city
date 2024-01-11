@@ -9,8 +9,10 @@ export class Choomba {
     @Column()
     nombre: string;
 
-    @Column()
-    edad: string;
+    @Column('int',{
+        nullable: true
+    })
+    edad: number;
 
     @Column()
     afiliacion: string;

@@ -2,91 +2,91 @@
   {
     "id": "1",
     "nombre": "Johnny Silverhand",
-    "edad": "",
+    "edad": null,
     "afiliacion": ""
   },
   {
     "id": "2",
     "nombre": "Jackie Welles",
-    "edad": "",
+    "edad": null,
     "afiliacion": "Valentinos"
   },
   {
     "id": "3",
     "nombre": "Song So Mi",
-    "edad": "",
+    "edad": null,
     "afiliacion": "FIA"
   },
   {
     "id": "4",
     "nombre": "Solomon Reed",
-    "edad": "",
+    "edad": null,
     "afiliacion": "FIA"
   },
   {
     "id": "5",
     "nombre": "Viktor Vektor",
-    "edad": "",
+    "edad": null,
     "afiliacion": ""
   },
   {
     "id": "6",
     "nombre": "Panam Palmer",
-    "edad": "",
+    "edad": null,
     "afiliacion": "Aldecaldos"
   },
   {
     "id": "7",
     "nombre": "Judy Alvarez",
-    "edad": "",
+    "edad": null,
     "afiliacion": "The Mox"
   },
   {
     "id": "8",
     "nombre": "David Martinez",
-    "edad": "",
+    "edad": null,
     "afiliacion": "Merc"
   },
   {
     "id": "9",
     "nombre": "Lucyna Kushinada",
-    "edad": "",
+    "edad": null,
     "afiliacion": "Merc"
   },
   {
     "id": "10",
     "nombre": "Alena Xenakis",
-    "edad": "",
+    "edad": null,
     "afiliacion": "FIA"
   },
   {
     "id": "11",
     "nombre": "Mitch Anderson",
-    "edad": "",
+    "edad": null,
     "afiliacion": "Aldecaldos"
   },
   {
     "id": "12",
     "nombre": "Misty Olszewski",
-    "edad": "",
+    "edad": null,
     "afiliacion": ""
   },
   {
     "id": "13",
     "nombre": "Evelyn Parker",
-    "edad": "",
+    "edad": null,
     "afiliacion": "The Mox"
   },
   {
     "id": "14",
     "nombre": "T-Bug",
-    "edad": "",
+    "edad": null,
     "afiliacion": "Merc"
   },
   {
     "id": "15",
     "nombre": "Kerry Eurodyne",
-    "edad": "",
+    "edad": null,
     "afiliacion": ""
   }
 ]
