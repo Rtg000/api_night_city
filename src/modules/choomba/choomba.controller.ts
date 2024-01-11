@@ -29,6 +29,6 @@ export class ChoombaController {
 
   @Delete(':id')
   remove(@Param('id') id: string) {
-    return this.choombaService.remove(+id);
+    return this.choombaService.remove(id);
   }
 }

@@ -29,6 +29,6 @@ export class CorpoController {
 
   @Delete(':id')
   remove(@Param('id') id: string) {
-    return this.corpoService.remove(+id);
+    return this.corpoService.remove(id);
   }
 }

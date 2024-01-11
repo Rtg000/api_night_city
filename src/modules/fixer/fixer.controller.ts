@@ -29,6 +29,6 @@ export class FixerController {
 
   @Delete(':id')
   remove(@Param('id') id: string) {
-    return this.fixerService.remove(+id);
+    return this.fixerService.remove(id);
   }
 }

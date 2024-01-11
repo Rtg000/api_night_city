@@ -64,11 +64,16 @@ export class FixerService {
     }
   }
 
-  update(id: number, updateFixerDto: UpdateFixerDto) {
-    return `This action updates a #${id} fixer`;
+  async remove(id: string){
+    try{
+      const fixer = await this.fixerRepository.findOneBy({id});
+      return await this.fixerRepository.remove(fixer);
+    }catch(error){
+      throw new InternalServerErrorException(`Error, fixer con id ${id} no encontrado`)
+    }
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} fixer`;
+  update(id: number, updateFixerDto: UpdateFixerDto) {
+    return `This action updates a #${id} fixer`;
   }
 }

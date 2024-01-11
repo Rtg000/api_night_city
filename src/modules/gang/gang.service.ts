@@ -64,11 +64,16 @@ export class GangService {
     }
   }
 
-  update(id: number, updateGangDto: UpdateGangDto) {
-    return `This action updates a #${id} gang`;
+  async remove(id: string){
+    try{
+      const gang = await this.gangRepository.findOneBy({id});
+      return await this.gangRepository.remove(gang);
+    }catch(error){
+      throw new InternalServerErrorException(`Error, gang con id ${id} no encontrado`)
+    }
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} gang`;
+  update(id: number, updateGangDto: UpdateGangDto) {
+    return `This action updates a #${id} gang`;
   }
 }

@@ -29,6 +29,6 @@ export class GangController {
 
   @Delete(':id')
   remove(@Param('id') id: string) {
-    return this.gangService.remove(+id);
+    return this.gangService.remove(id);
   }
 }

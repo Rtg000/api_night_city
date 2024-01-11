@@ -64,11 +64,17 @@ export class ChoombaService {
     }
   }
 
+  async remove(id: string){
+    try{
+      const choomba = await this.choombaRepository.findOneBy({id});
+      return await this.choombaRepository.remove(choomba);
+    }catch(error){
+      throw new InternalServerErrorException(`Error, choomba con id ${id} no encontrado`)
+    }
+  }
+
   update(id: number, updateChoombaDto: UpdateChoombaDto) {
     return `This action updates a #${id} choomba`;
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} choomba`;
-  }
 }

@@ -64,11 +64,16 @@ export class CorpoService {
     }
   }
 
-  update(id: number, updateCorpoDto: UpdateCorpoDto) {
-    return `This action updates a #${id} corpo`;
+  async remove(id: string){
+    try{
+      const corpo = await this.corpoRepository.findOneBy({id});
+      return await this.corpoRepository.remove(corpo);
+    }catch(error){
+      throw new InternalServerErrorException(`Error, corpo con id ${id} no encontrado`)
+    }
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} corpo`;
+  update(id: number, updateCorpoDto: UpdateCorpoDto) {
+    return `This action updates a #${id} corpo`;
   }
 }
