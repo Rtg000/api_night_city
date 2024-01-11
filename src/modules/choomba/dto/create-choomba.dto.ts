@@ -13,6 +13,7 @@ export class CreateChoombaDto {
     edad: number;
 
     @IsString()
+    @IsOptional()
     afiliacion: string;
 
 }

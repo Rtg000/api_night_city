@@ -13,6 +13,7 @@ export class CreateFixerDto {
     edad: number;
 
     @IsString()
+    @IsOptional()
     distrito: string;
 
 }

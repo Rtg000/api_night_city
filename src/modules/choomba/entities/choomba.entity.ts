@@ -14,7 +14,9 @@ export class Choomba {
     })
     edad: number;
 
-    @Column()
+    @Column({
+        nullable: true
+    })
     afiliacion: string;
 
 }

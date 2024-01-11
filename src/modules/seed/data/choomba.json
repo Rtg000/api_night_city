@@ -3,7 +3,7 @@
     "id": "1",
     "nombre": "Johnny Silverhand",
     "edad": null,
-    "afiliacion": ""
+    "afiliacion": null
   },
   {
     "id": "2",
@@ -27,7 +27,7 @@
     "id": "5",
     "nombre": "Viktor Vektor",
     "edad": null,
-    "afiliacion": ""
+    "afiliacion": null
   },
   {
     "id": "6",
@@ -69,7 +69,7 @@
     "id": "12",
     "nombre": "Misty Olszewski",
     "edad": null,
-    "afiliacion": ""
+    "afiliacion": null
   },
   {
     "id": "13",
@@ -87,6 +87,6 @@
     "id": "15",
     "nombre": "Kerry Eurodyne",
     "edad": null,
-    "afiliacion": ""
+    "afiliacion": null
   }
 ]

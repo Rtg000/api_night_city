@@ -12,9 +12,11 @@ export class Fixer {
     @Column('int',{
         nullable: true
     })
-    edad?: number;
+    edad: number;
 
-    @Column()
+    @Column({
+        nullable: true
+    })
     distrito: string;
 
 }

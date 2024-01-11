@@ -3,7 +3,7 @@
     "id": "1",
     "nombre": "Rogue Amendiares",
     "edad": null,
-    "distrito": ""
+    "distrito": null
   },
   {
     "id": "2",
@@ -51,6 +51,6 @@
     "id": "9",
     "nombre": "Dexter DeShawn",
     "edad": null,
-    "distrito": ""
+    "distrito": null
   }
 ]
