@@ -14,6 +14,6 @@ export class CreateChoombaDto {
 
     @IsString()
     @IsOptional()
-    afiliacion: string;
+    gang?: string;
 
 }

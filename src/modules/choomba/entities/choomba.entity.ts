@@ -1,4 +1,5 @@
-import { Column, Entity, PrimaryColumn } from "typeorm";
+import { Gang } from "src/modules/gang/entities/gang.entity";
+import { Column, Entity, JoinColumn, ManyToOne, PrimaryColumn } from "typeorm";
 
 @Entity('Choomba')
 export class Choomba {
@@ -14,9 +15,11 @@ export class Choomba {
     })
     edad: number;
 
-    @Column({
-        nullable: true
-    })
-    afiliacion: string;
+    @ManyToOne(
+        () => Gang,
+        (gang) => gang.choombas,
+        {nullable: true}
+    )
+    gang?: Gang | null;
 
 }

@@ -9,6 +9,6 @@ import { FixerModule } from '../fixer/fixer.module';
 @Module({
   controllers: [SeedController],
   providers: [SeedService],
-  imports: [ChoombaModule,CorpoModule,GangModule,FixerModule]
+  imports: [GangModule,ChoombaModule,CorpoModule,FixerModule]
 })
 export class SeedModule {}

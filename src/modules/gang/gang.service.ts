@@ -19,6 +19,7 @@ export class GangService {
     try{
       const gang = this.gangRepository.create(createGangDto);
       await this.gangRepository.save(gang); 
+      // console.log(gang);
     return{
       msg: 'Registro insertado',
       data: gang,
@@ -46,7 +47,7 @@ export class GangService {
     const gang = this.gangRepository.findOne({
       where:{
         id
-      }
+      },
     });
     return gang;
   }

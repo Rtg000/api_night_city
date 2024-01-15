@@ -2,91 +2,97 @@
   {
     "id": "1",
     "nombre": "Johnny Silverhand",
-    "edad": null,
-    "afiliacion": null
+    "gang": "",
+    "edad": null
   },
   {
     "id": "2",
     "nombre": "Jackie Welles",
-    "edad": null,
-    "afiliacion": "Valentinos"
+    "gang": "13",
+    "edad": null
   },
   {
     "id": "3",
     "nombre": "Song So Mi",
-    "edad": null,
-    "afiliacion": "FIA"
+    "gang": "9",
+    "edad": null
   },
   {
     "id": "4",
     "nombre": "Solomon Reed",
-    "edad": null,
-    "afiliacion": "FIA"
+    "gang": "9",
+    "edad": null
   },
   {
     "id": "5",
     "nombre": "Viktor Vektor",
-    "edad": null,
-    "afiliacion": null
+    "gang": "",
+    "edad": null
   },
   {
     "id": "6",
     "nombre": "Panam Palmer",
-    "edad": null,
-    "afiliacion": "Aldecaldos"
+    "gang": "10",
+    "edad": null
   },
   {
     "id": "7",
     "nombre": "Judy Alvarez",
-    "edad": null,
-    "afiliacion": "The Mox"
+    "gang": "4",
+    "edad": null
   },
   {
     "id": "8",
     "nombre": "David Martinez",
-    "edad": null,
-    "afiliacion": "Merc"
+    "gang": "1",
+    "edad": null
   },
   {
     "id": "9",
     "nombre": "Lucyna Kushinada",
-    "edad": null,
-    "afiliacion": "Merc"
+    "gang": "1",
+    "edad": null
   },
   {
     "id": "10",
     "nombre": "Alena Xenakis",
-    "edad": null,
-    "afiliacion": "FIA"
+    "gang": "9",
+    "edad": null
   },
   {
     "id": "11",
     "nombre": "Mitch Anderson",
-    "edad": null,
-    "afiliacion": "Aldecaldos"
+    "gang": "10",
+    "edad": null
   },
   {
     "id": "12",
     "nombre": "Misty Olszewski",
-    "edad": null,
-    "afiliacion": null
+    "gang": "",
+    "edad": null
   },
   {
     "id": "13",
     "nombre": "Evelyn Parker",
-    "edad": null,
-    "afiliacion": "The Mox"
+    "gang": "4",
+    "edad": null
   },
   {
     "id": "14",
     "nombre": "T-Bug",
-    "edad": null,
-    "afiliacion": "Merc"
+    "gang": "1",
+    "edad": null
   },
   {
     "id": "15",
     "nombre": "Kerry Eurodyne",
-    "edad": null,
-    "afiliacion": null
+    "gang": "",
+    "edad": null
+  },
+  {
+    "id": "16",
+    "nombre": "Paco Torres",
+    "gang": "8",
+    "edad": null
   }
 ]

@@ -1,4 +1,5 @@
-import { Column, Entity, PrimaryColumn } from "typeorm";
+import { Choomba } from "src/modules/choomba/entities/choomba.entity";
+import { Column, Entity, OneToMany, PrimaryColumn } from "typeorm";
 
 @Entity('Gang')
 export class Gang {
@@ -8,5 +9,11 @@ export class Gang {
 
     @Column()
     nombre: string;
+
+    @OneToMany(
+        () => Choomba,
+        (choomba) => choomba.gang,
+    )
+    choombas?: Choomba[];
 
 }

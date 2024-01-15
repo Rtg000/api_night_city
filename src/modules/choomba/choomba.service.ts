@@ -4,21 +4,27 @@ import { UpdateChoombaDto } from './dto/update-choomba.dto';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Choomba } from './entities/choomba.entity';
+import { GangService } from '../gang/gang.service';
 
 @Injectable()
 export class ChoombaService {
   constructor(
     @InjectRepository(Choomba)
-    private readonly choombaRepository: Repository<Choomba>
+    private readonly choombaRepository: Repository<Choomba>,
+    private readonly gangService: GangService
   ){
 
   }
   
-  @Post()
+  // @Post()
   async create(createChoombaDto: CreateChoombaDto) {
     try{
-      const choomba = this.choombaRepository.create(createChoombaDto);
+      const {gang, ...campos} = createChoombaDto;
+      const choomba = this.choombaRepository.create({...campos});
+      const gangobj = await this.gangService.findOne(gang);
+      choomba.gang = gangobj;
       await this.choombaRepository.save(choomba); 
+      // console.log(choomba);
     return{
       msg: 'Registro insertado',
       data: choomba,
@@ -46,6 +52,9 @@ export class ChoombaService {
     const choomba = this.choombaRepository.findOne({
       where:{
         id
+      },
+      relations: {
+        gang: true
       }
     });
     return choomba;
@@ -53,7 +62,11 @@ export class ChoombaService {
 
   async findAll() {
     try {
-      const choomba = await this.choombaRepository.find()
+      const choomba = await this.choombaRepository.find({
+        relations: {
+          gang: true
+        }
+      });
       return {
         data: choomba,
         message: 'Listado de choombas',

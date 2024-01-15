@@ -25,17 +25,28 @@ export class SeedService {
   // constructor (private readonly libroService: LibroService){}
 
   public async loadData(){
+    await this.insertNewGang(),
     await this.insertNewChoomba(),
     await this.insertNewCorpo(),
-    await this.insertNewGang(),
     await this.insertNewFixer()
+  }
+
+  private async insertNewGang(){
+    await this.gangService.deleteAllGang();
+    const insertPromiseGang = [];
+    seedGangs.forEach( (gang: CreateGangDto) => {
+      console.log(gang);
+      insertPromiseGang.push(this.gangService.create(gang));
+    })
+    const results = await Promise.all(insertPromiseGang);
+    return true;
   }
 
   private async insertNewChoomba(){
     await this.choombaService.deleteAllChoomba();
     const insertPromiseChoomba = [];
     seedChoombas.forEach( (choomba: CreateChoombaDto) => {
-      console.log(choomba.id);
+      console.log(choomba);
       insertPromiseChoomba.push(this.choombaService.create(choomba));
     })
     const results = await Promise.all(insertPromiseChoomba);
@@ -46,21 +57,10 @@ export class SeedService {
     await this.corpoService.deleteAllCorpo();
     const insertPromiseCorpo = [];
     seedCorpos.forEach( (corpo: CreateCorpoDto) => {
-      console.log(corpo.id);
+      console.log(corpo);
       insertPromiseCorpo.push(this.corpoService.create(corpo));
     })
     const results = await Promise.all(insertPromiseCorpo);
-    return true;
-  }
-
-  private async insertNewGang(){
-    await this.gangService.deleteAllGang();
-    const insertPromiseGang = [];
-    seedGangs.forEach( (gang: CreateGangDto) => {
-      console.log(gang.id);
-      insertPromiseGang.push(this.gangService.create(gang));
-    })
-    const results = await Promise.all(insertPromiseGang);
     return true;
   }
 
@@ -68,7 +68,7 @@ export class SeedService {
     await this.fixerService.deleteAllFixer();
     const insertPromiseFixer = [];
     seedFixers.forEach( (fixer: CreateFixerDto) => {
-      console.log(fixer.id);
+      console.log(fixer);
       insertPromiseFixer.push(this.fixerService.create(fixer));
     })
     const results = await Promise.all(insertPromiseFixer);
