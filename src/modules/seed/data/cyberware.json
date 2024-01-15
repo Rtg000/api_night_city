@@ -1,0 +1,203 @@
+[
+  {
+    "id": "1",
+    "nombre": "Sandevistan",
+    "tipo": "Sistema Operativo"
+  },
+  {
+    "id": "2",
+    "nombre": "Berserker",
+    "tipo": "Sistema Operativo"
+  },
+  {
+    "id": "3",
+    "nombre": "Cyberdeck",
+    "tipo": "Sistema Operativo"
+  },
+  {
+    "id": "6",
+    "nombre": "Mejora de RAM",
+    "tipo": "Lóbulo Frontal"
+  },
+  {
+    "id": "6",
+    "nombre": "Ex-Disk",
+    "tipo": "Lóbulo Frontal"
+  },
+  {
+    "id": "6",
+    "nombre": "Axolotl",
+    "tipo": "Lóbulo Frontal"
+  },
+  {
+    "id": "6",
+    "nombre": "Bioconductor",
+    "tipo": "Lóbulo Frontal"
+  },
+  {
+    "id": "6",
+    "nombre": "Reasignador de RAM",
+    "tipo": "Lóbulo Frontal"
+  },
+  {
+    "id": "6",
+    "nombre": "Núcleo Mecatrónico",
+    "tipo": "Lóbulo Frontal"
+  },
+  {
+    "id": "8",
+    "nombre": "Ópticas Kiroshi",
+    "tipo": "Cara"
+  },
+  {
+    "id": "4",
+    "nombre": "Brazo de Gorila",
+    "tipo": "Brazo"
+  },
+  {
+    "id": "5",
+    "nombre": "Monocable",
+    "tipo": "Brazo"
+  },
+
+  {
+    "id": "6",
+    "nombre": "Garras de Mantis",
+    "tipo": "Brazo"
+  },
+  {
+    "id": "7",
+    "nombre": "Sistema de Lanzamiento de Proyectiles",
+    "tipo": "Brazo"
+  },
+  {
+    "id": "8",
+    "nombre": "Coprocesador Balístico",
+    "tipo": "Manos"
+  },
+  {
+    "id": "8",
+    "nombre": "Microgenerador",
+    "tipo": "Manos"
+  },
+  {
+    "id": "8",
+    "nombre": "Smart Link",
+    "tipo": "Manos"
+  },
+  {
+    "id": "7",
+    "nombre": "Microrotores",
+    "tipo": "Sistema Circulatorio"
+  },  
+  {
+    "id": "8",
+    "nombre": "Heal-On-Kill",
+    "tipo": "Sistema Circulatorio"
+  },
+  {
+    "id": "8",
+    "nombre": "Biomonitor",
+    "tipo": "Sistema Circulatorio"
+  },
+  {
+    "id": "8",
+    "nombre": "Bomba de Sangre",
+    "tipo": "Sistema Circulatorio"
+  },
+  {
+    "id": "8",
+    "nombre": "Neofibra",
+    "tipo": "Sistema Nervioso"
+  },
+  {
+    "id": "8",
+    "nombre": "Neofibra",
+    "tipo": "Sistema Nervioso"
+  },
+  {
+    "id": "8",
+    "nombre": "Chitina",
+    "tipo": "Sistema Integumentario"
+  },
+  {
+    "id": "8",
+    "nombre": "Kerenzikov",
+    "tipo": "Sistema Integumentario"
+  },
+  {
+    "id": "8",
+    "nombre": "Editor del Dolor",
+    "tipo": "Sistema Integumentario"
+  },
+  {
+    "id": "8",
+    "nombre": "Adaptador Celular",
+    "tipo": "Sistema Integumentario"
+  },
+  {
+    "id": "8",
+    "nombre": "Camuflake Óptico",
+    "tipo": "Sistema Integumentario"
+  },
+  {
+    "id": "8",
+    "nombre": "ProxiShield",
+    "tipo": "Sistema Integumentario"
+  },
+  {
+    "id": "5",
+    "nombre": "Defenzikov",
+    "tipo": "Sistema Integumentario"
+  },
+  {
+    "id": "8",
+    "nombre": "Tendones Jenkins",
+    "tipo": "Piernas"
+  },
+  {
+    "id": "8",
+    "nombre": "Tobillos Fortalecidos",
+    "tipo": "Piernas"
+  },
+  {
+    "id": "8",
+    "nombre": "Sistema de Ligamentos Leeroy",
+    "tipo": "Piernas"
+  },
+  {
+    "id": "8",
+    "nombre": "Patas de Lince",
+    "tipo": "Piernas"
+  },
+  {
+    "id": "8",
+    "nombre": "Tendones Reforzados",
+    "tipo": "Piernas"
+  },
+  {
+    "id": "8",
+    "nombre": "Para Bellumn",
+    "tipo": "Esqueleto"
+  },
+  {
+    "id": "8",
+    "nombre": "Esqueleto Epimórfico",
+    "tipo": "Esqueleto"
+  },
+  {
+    "id": "8",
+    "nombre": "Escarabajo",
+    "tipo": "Esqueleto"
+  },
+  {
+    "id": "8",
+    "nombre": "Huesos de Titanio",
+    "tipo": "Esqueleto"
+  },
+  {
+    "id": "8",
+    "nombre": "Médula Densa",
+    "tipo": "Esqueleto"
+  }
+]  
