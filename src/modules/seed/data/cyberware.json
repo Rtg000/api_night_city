@@ -15,12 +15,12 @@
     "tipo": "Sistema Operativo"
   },
   {
-    "id": "6",
+    "id": "4",
     "nombre": "Mejora de RAM",
     "tipo": "Lóbulo Frontal"
   },
   {
-    "id": "6",
+    "id": "5",
     "nombre": "Ex-Disk",
     "tipo": "Lóbulo Frontal"
   },
@@ -30,173 +30,178 @@
     "tipo": "Lóbulo Frontal"
   },
   {
-    "id": "6",
+    "id": "7",
     "nombre": "Bioconductor",
     "tipo": "Lóbulo Frontal"
   },
   {
-    "id": "6",
+    "id": "8",
     "nombre": "Reasignador de RAM",
     "tipo": "Lóbulo Frontal"
   },
   {
-    "id": "6",
+    "id": "9",
     "nombre": "Núcleo Mecatrónico",
     "tipo": "Lóbulo Frontal"
   },
   {
-    "id": "8",
+    "id": "10",
     "nombre": "Ópticas Kiroshi",
     "tipo": "Cara"
   },
   {
-    "id": "4",
+    "id": "11",
     "nombre": "Brazo de Gorila",
     "tipo": "Brazo"
   },
   {
-    "id": "5",
+    "id": "12",
     "nombre": "Monocable",
     "tipo": "Brazo"
   },
 
   {
-    "id": "6",
+    "id": "13",
     "nombre": "Garras de Mantis",
     "tipo": "Brazo"
   },
   {
-    "id": "7",
+    "id": "14",
     "nombre": "Sistema de Lanzamiento de Proyectiles",
     "tipo": "Brazo"
   },
   {
-    "id": "8",
+    "id": "15",
     "nombre": "Coprocesador Balístico",
     "tipo": "Manos"
   },
   {
-    "id": "8",
+    "id": "16",
     "nombre": "Microgenerador",
     "tipo": "Manos"
   },
   {
-    "id": "8",
+    "id": "17",
     "nombre": "Smart Link",
     "tipo": "Manos"
   },
   {
-    "id": "7",
+    "id": "18",
     "nombre": "Microrotores",
     "tipo": "Sistema Circulatorio"
   },  
   {
-    "id": "8",
+    "id": "19",
     "nombre": "Heal-On-Kill",
     "tipo": "Sistema Circulatorio"
   },
   {
-    "id": "8",
+    "id": "20",
     "nombre": "Biomonitor",
     "tipo": "Sistema Circulatorio"
   },
   {
-    "id": "8",
+    "id": "21",
     "nombre": "Bomba de Sangre",
     "tipo": "Sistema Circulatorio"
   },
   {
-    "id": "8",
+    "id": "22",
+    "nombre": "Segundo Corazón",
+    "tipo": "Sistema Circulatorio"
+  },
+  {
+    "id": "23",
     "nombre": "Neofibra",
     "tipo": "Sistema Nervioso"
   },
   {
-    "id": "8",
+    "id": "24",
     "nombre": "Neofibra",
     "tipo": "Sistema Nervioso"
   },
   {
-    "id": "8",
+    "id": "25",
     "nombre": "Chitina",
     "tipo": "Sistema Integumentario"
   },
   {
-    "id": "8",
+    "id": "26",
     "nombre": "Kerenzikov",
     "tipo": "Sistema Integumentario"
   },
   {
-    "id": "8",
+    "id": "27",
     "nombre": "Editor del Dolor",
     "tipo": "Sistema Integumentario"
   },
   {
-    "id": "8",
+    "id": "28",
     "nombre": "Adaptador Celular",
     "tipo": "Sistema Integumentario"
   },
   {
-    "id": "8",
+    "id": "29",
     "nombre": "Camuflake Óptico",
     "tipo": "Sistema Integumentario"
   },
   {
-    "id": "8",
+    "id": "30",
     "nombre": "ProxiShield",
     "tipo": "Sistema Integumentario"
   },
   {
-    "id": "5",
+    "id": "31",
     "nombre": "Defenzikov",
     "tipo": "Sistema Integumentario"
   },
   {
-    "id": "8",
+    "id": "32",
     "nombre": "Tendones Jenkins",
     "tipo": "Piernas"
   },
   {
-    "id": "8",
+    "id": "33",
     "nombre": "Tobillos Fortalecidos",
     "tipo": "Piernas"
   },
   {
-    "id": "8",
+    "id": "34",
     "nombre": "Sistema de Ligamentos Leeroy",
     "tipo": "Piernas"
   },
   {
-    "id": "8",
+    "id": "35",
     "nombre": "Patas de Lince",
     "tipo": "Piernas"
   },
   {
-    "id": "8",
+    "id": "36",
     "nombre": "Tendones Reforzados",
     "tipo": "Piernas"
   },
   {
-    "id": "8",
+    "id": "37",
     "nombre": "Para Bellumn",
     "tipo": "Esqueleto"
   },
   {
-    "id": "8",
+    "id": "38",
     "nombre": "Esqueleto Epimórfico",
     "tipo": "Esqueleto"
   },
   {
-    "id": "8",
+    "id": "39",
     "nombre": "Escarabajo",
     "tipo": "Esqueleto"
   },
   {
-    "id": "8",
+    "id": "40",
     "nombre": "Huesos de Titanio",
     "tipo": "Esqueleto"
   },
   {
-    "id": "8",
+    "id": "41",
     "nombre": "Médula Densa",
     "tipo": "Esqueleto"
   }

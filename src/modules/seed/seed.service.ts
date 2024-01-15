@@ -9,10 +9,13 @@ import * as seedChoombas from './data/choomba.json';
 import * as seedCorpos from './data/corpo.json';
 import * as seedGangs from './data/gang.json';
 import * as seedFixers from './data/fixers.json';
+import * as seedCyberwares from './data/cyberware.json';
 import { CreateCorpoDto } from '../corpo/dto/create-corpo.dto';
 import { CreateGangDto } from '../gang/dto/create-gang.dto';
 import { CreateFixerDto } from '../fixer/dto/create-fixer.dto';
 import { FixerService } from '../fixer/fixer.service';
+import { CreateCyberwareDto } from '../cyberware/dto/create-cyberware.dto';
+import { CyberwareService } from '../cyberware/cyberware.service';
 
 @Injectable()
 export class SeedService {
@@ -20,7 +23,8 @@ export class SeedService {
     private readonly choombaService: ChoombaService,
     private readonly corpoService: CorpoService,
     private readonly gangService: GangService,
-    private readonly fixerService: FixerService
+    private readonly fixerService: FixerService,
+    private readonly cyberwareService: CyberwareService
   ){}
   // constructor (private readonly libroService: LibroService){}
 
@@ -28,7 +32,8 @@ export class SeedService {
     await this.insertNewGang(),
     await this.insertNewChoomba(),
     await this.insertNewCorpo(),
-    await this.insertNewFixer()
+    await this.insertNewFixer(),
+    await this.insertNewCyberware()
   }
 
   private async insertNewGang(){
@@ -72,6 +77,17 @@ export class SeedService {
       insertPromiseFixer.push(this.fixerService.create(fixer));
     })
     const results = await Promise.all(insertPromiseFixer);
+    return true;
+  }
+  
+  private async insertNewCyberware(){
+    await this.cyberwareService.deleteAllCyberware();
+    const insertPromiseCyberware = [];
+    seedCyberwares.forEach( (cyberware: CreateCyberwareDto) => {
+      console.log(cyberware);
+      insertPromiseCyberware.push(this.cyberwareService.create(cyberware));
+    })
+    const results = await Promise.all(insertPromiseCyberware);
     return true;
   }
 
