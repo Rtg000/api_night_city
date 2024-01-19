@@ -7,6 +7,9 @@ import { ChoombaModule } from './modules/choomba/choomba.module';
 import { CorpoModule } from './modules/corpo/corpo.module';
 import { GangModule } from './modules/gang/gang.module';
 import { SeedModule } from './modules/seed/seed.module';
+import { CyberwareModule } from './modules/cyberware/cyberware.module';
+import { UserModule } from './modules/user/user.module';
+import { AuthModule } from './modules/auth/auth.module';
 
 @Module({
   imports: [
@@ -24,7 +27,10 @@ import { SeedModule } from './modules/seed/seed.module';
     SeedModule,
     ChoombaModule,
     CorpoModule,
-    GangModule
+    GangModule,
+    CyberwareModule,
+    UserModule,
+    AuthModule
   ],
   controllers: [AppController],
   providers: [AppService],

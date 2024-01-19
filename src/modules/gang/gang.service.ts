@@ -54,7 +54,11 @@ export class GangService {
 
   async findAll() {
     try {
-      const gang = await this.gangRepository.find()
+      const gang = await this.gangRepository.find({
+        relations: {
+          choombas: true
+        }
+      });
       return {
         data: gang,
         message: 'Listado de gangs',

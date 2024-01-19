@@ -1,12 +1,12 @@
-import { Column, CreateDateColumn, Entity, PrimaryColumn } from "typeorm";
+import { Column, CreateDateColumn, Entity, PrimaryColumn, PrimaryGeneratedColumn } from "typeorm";
 
 // @Entity('user')
 @Entity({
-    name: 'user'
+    name: 'User'
 })
 export class User {
 
-    @PrimaryColumn('uuid',{
+    @PrimaryGeneratedColumn('uuid',{
         name: 'id'
     })
     id: string;
@@ -42,7 +42,8 @@ export class User {
 
     @Column('varchar',{
         array: true,
-
+        nullable: true,
+        default: ['usuario']
     })
     roles: string[];
 
