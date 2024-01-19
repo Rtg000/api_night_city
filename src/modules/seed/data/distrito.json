@@ -1,0 +1,94 @@
+[
+    {
+        "id": "1",
+        "nombre": "Watson",
+        "subdistrito":[
+            {
+                "nombre": "Arasaka Waterfront"
+            },
+            {
+                "nombre": "Kabuki"
+            },
+            {
+                "nombre": "Little China"
+            },
+            {
+                "nombre": "Northside"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "nombre": "Heywood",
+        "subdistrito":[
+            {
+                "nombre": "El Glen"
+            },
+            {
+                "nombre": "Vista del Rey"
+            },
+            {
+                "nombre": "Wellsprings"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "nombre": "Westbrook",
+        "subdistrito":[
+            {
+                "nombre": "Japantown"
+            },
+            {
+                "nombre": "Charter Hill"
+            },
+            {
+                "nombre": "North Oak"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "nombre": "City Center",
+        "subdistrito":[
+            {
+                "nombre": "Corpo Plaza"
+            },
+            {
+                "nombre": "Downtown"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "nombre": "Santo Domingo",
+        "subdistrito":[
+            {
+                "nombre": "Arroyo"
+            },
+            {
+                "nombre": "Rancho Coronado"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "nombre": "Pacifica",
+        "subdistrito":[
+            {
+                "nombre": "Coastview"
+            },
+            {
+                "nombre": "West Wind State"
+            },
+            {
+                "nombre": "Dogtown"
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "nombre": "Badlands",
+        "subdistrito": null
+    }
+]
