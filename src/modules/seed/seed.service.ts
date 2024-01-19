@@ -8,7 +8,7 @@ import { CreateChoombaDto } from '../choomba/dto/create-choomba.dto';
 import * as seedChoombas from './data/choomba.json';
 import * as seedCorpos from './data/corpo.json';
 import * as seedGangs from './data/gang.json';
-import * as seedFixers from './data/fixers.json';
+import * as seedFixers from './data/fixer.json';
 import * as seedCyberwares from './data/cyberware.json';
 import { CreateCorpoDto } from '../corpo/dto/create-corpo.dto';
 import { CreateGangDto } from '../gang/dto/create-gang.dto';
