@@ -19,7 +19,7 @@ export class DistritoController {
 
   @Get(':id')
   findOne(@Param('id') id: string) {
-    return this.distritoService.findOne(+id);
+    return this.distritoService.findOne(id);
   }
 
   @Patch(':id')
@@ -29,6 +29,6 @@ export class DistritoController {
 
   @Delete(':id')
   remove(@Param('id') id: string) {
-    return this.distritoService.remove(+id);
+    return this.distritoService.remove(id);
   }
 }

@@ -10,12 +10,15 @@ import * as seedCorpos from './data/corpo.json';
 import * as seedGangs from './data/gang.json';
 import * as seedFixers from './data/fixer.json';
 import * as seedCyberwares from './data/cyberware.json';
+import * as seedDistritos from './data/distrito.json';
 import { CreateCorpoDto } from '../corpo/dto/create-corpo.dto';
 import { CreateGangDto } from '../gang/dto/create-gang.dto';
 import { CreateFixerDto } from '../fixer/dto/create-fixer.dto';
 import { FixerService } from '../fixer/fixer.service';
 import { CreateCyberwareDto } from '../cyberware/dto/create-cyberware.dto';
 import { CyberwareService } from '../cyberware/cyberware.service';
+import { CreateDistritoDto } from '../distrito/dto/create-distrito.dto';
+import { DistritoService } from '../distrito/distrito.service';
 
 @Injectable()
 export class SeedService {
@@ -24,13 +27,15 @@ export class SeedService {
     private readonly corpoService: CorpoService,
     private readonly gangService: GangService,
     private readonly fixerService: FixerService,
-    private readonly cyberwareService: CyberwareService
+    private readonly cyberwareService: CyberwareService,
+    private readonly distritoService: DistritoService
   ){}
   // constructor (private readonly libroService: LibroService){}
 
   public async loadData(){
     await this.insertNewGang(),
     await this.insertNewChoomba(),
+    await this.insertNewDistrito(),
     await this.insertNewCorpo(),
     await this.insertNewFixer(),
     await this.insertNewCyberware()
@@ -91,23 +96,15 @@ export class SeedService {
     return true;
   }
 
-  // create(createSeedDto: CreateSeedDto) {
-  //   return 'This action adds a new seed';
-  // }
+  private async insertNewDistrito(){
+    await this.distritoService.deleteAllDistrito();
+    const insertPromiseDistrito = [];
+    seedDistritos.forEach( (distrito: CreateDistritoDto) => {
+      console.log(distrito);
+      insertPromiseDistrito.push(this.distritoService.create(distrito));
+    })
+    const results = await Promise.all(insertPromiseDistrito);
+    return true;
+  }
 
-  // findAll() {
-  //   return `This action returns all seed`;
-  // }
-
-  // findOne(id: number) {
-  //   return `This action returns a #${id} seed`;
-  // }
-
-  // update(id: number, updateSeedDto: UpdateSeedDto) {
-  //   return `This action updates a #${id} seed`;
-  // }
-
-  // remove(id: number) {
-  //   return `This action removes a #${id} seed`;
-  // }
 }
