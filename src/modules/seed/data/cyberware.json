@@ -117,17 +117,17 @@
   },
   {
     "id": "24",
-    "nombre": "Neofibra",
+    "nombre": "Kerenzikov",
     "tipo": "Sistema Nervioso"
   },
   {
     "id": "25",
-    "nombre": "Chitina",
-    "tipo": "Sistema Integumentario"
+    "nombre": "Acelerador Sináptico",
+    "tipo": "Sistema Nervioso"
   },
   {
     "id": "26",
-    "nombre": "Kerenzikov",
+    "nombre": "Chitina",
     "tipo": "Sistema Integumentario"
   },
   {
@@ -142,7 +142,7 @@
   },
   {
     "id": "29",
-    "nombre": "Camuflake Óptico",
+    "nombre": "Camuflaje Óptico",
     "tipo": "Sistema Integumentario"
   },
   {
