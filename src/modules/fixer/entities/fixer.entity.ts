@@ -1,4 +1,5 @@
-import { Column, Entity, PrimaryColumn } from "typeorm";
+import { Distrito } from "src/modules/distrito/entities/distrito.entity";
+import { Column, Entity, ManyToOne, PrimaryColumn } from "typeorm";
 
 @Entity('Fixer')
 export class Fixer {
@@ -14,9 +15,11 @@ export class Fixer {
     })
     edad: number;
 
-    @Column({
-        nullable: true
-    })
-    distrito: string;
+    @ManyToOne(
+        () => Distrito,
+        (distrito) => distrito.fixers,
+        {nullable: true}
+    )
+    distrito?: Distrito | null;
 
 }

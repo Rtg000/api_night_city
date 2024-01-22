@@ -1,4 +1,5 @@
-import { Column, Entity, PrimaryColumn } from "typeorm";
+import { Fixer } from "src/modules/fixer/entities/fixer.entity";
+import { Column, Entity, OneToMany, PrimaryColumn } from "typeorm";
 
 @Entity('Distrito')
 export class Distrito {
@@ -14,5 +15,11 @@ export class Distrito {
         array: true
     })
     subdistrito: string[];
+
+    @OneToMany(
+        () => Fixer,
+        (fixer) => fixer.distrito,
+    )
+    fixers?: Fixer[];
 
 }

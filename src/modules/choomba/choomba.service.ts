@@ -16,7 +16,6 @@ export class ChoombaService {
 
   }
   
-  // @Post()
   async create(createChoombaDto: CreateChoombaDto) {
     try{
       const {gang, ...campos} = createChoombaDto;

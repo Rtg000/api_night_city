@@ -14,7 +14,6 @@ export class GangService {
 
   }
   
-  @Post()
   async create(createGangDto: CreateGangDto) {
     try{
       const gang = this.gangRepository.create(createGangDto);
@@ -48,6 +47,9 @@ export class GangService {
       where:{
         id
       },
+      relations: {
+        choombas: true
+      }
     });
     return gang;
   }

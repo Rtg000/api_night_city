@@ -4,20 +4,24 @@ import { UpdateFixerDto } from './dto/update-fixer.dto';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Fixer } from './entities/fixer.entity';
 import { Repository } from 'typeorm';
+import { DistritoService } from '../distrito/distrito.service';
 
 @Injectable()
 export class FixerService {
   constructor(
     @InjectRepository(Fixer)
-    private readonly fixerRepository: Repository<Fixer>
+    private readonly fixerRepository: Repository<Fixer>,
+    private readonly distritoService: DistritoService
   ){
 
   }
   
-  @Post()
   async create(createFixerDto: CreateFixerDto) {
     try{
-      const fixer = this.fixerRepository.create(createFixerDto);
+      const {distrito, ...campos} = createFixerDto;
+      const fixer = this.fixerRepository.create({...campos});
+      const distritoobj = await this.distritoService.findOne(distrito);
+      fixer.distrito = distritoobj
       await this.fixerRepository.save(fixer); 
     return{
       msg: 'Registro insertado',
@@ -46,6 +50,9 @@ export class FixerService {
     const fixer = this.fixerRepository.findOne({
       where:{
         id
+      },
+      relations: {
+        distrito: true
       }
     });
     return fixer;
@@ -53,7 +60,11 @@ export class FixerService {
 
   async findAll() {
     try {
-      const fixer = await this.fixerRepository.find()
+      const fixer = await this.fixerRepository.find({
+      relations: {
+        distrito: true
+      }
+      });
       return {
         data: fixer,
         message: 'Listado de fixers',

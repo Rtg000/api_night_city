@@ -14,6 +14,6 @@ export class CreateFixerDto {
 
     @IsString()
     @IsOptional()
-    distrito: string;
+    distrito?: string;
 
 }

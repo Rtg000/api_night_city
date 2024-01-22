@@ -46,6 +46,9 @@ export class DistritoService {
     const distrito = this.distritoRepository.findOne({
       where:{
         id
+      },
+      relations: {
+        fixers: true
       }
     });
     return distrito;
@@ -53,7 +56,11 @@ export class DistritoService {
 
   async findAll() {
     try {
-      const distrito = await this.distritoRepository.find()
+      const distrito = await this.distritoRepository.find({
+        relations: {
+          fixers: true
+        }
+      });
       return {
         data: distrito,
         message: 'Listado de distritos',
