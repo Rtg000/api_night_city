@@ -10,6 +10,7 @@ import { SeedModule } from './modules/seed/seed.module';
 import { CyberwareModule } from './modules/cyberware/cyberware.module';
 import { UserModule } from './modules/user/user.module';
 import { AuthModule } from './modules/auth/auth.module';
+import { JwtStrategy } from './modules/auth/strategies/jwt-strategy/jwt-strategy';
 
 @Module({
   imports: [
@@ -33,6 +34,6 @@ import { AuthModule } from './modules/auth/auth.module';
     AuthModule
   ],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [AppService, JwtStrategy],
 })
 export class AppModule {}

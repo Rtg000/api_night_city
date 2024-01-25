@@ -1,9 +1,11 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete, Query } from '@nestjs/common';
+import { Controller, Get, Post, Body, Patch, Param, Delete, Query, UseGuards } from '@nestjs/common';
 import { ChoombaService } from './choomba.service';
 import { CreateChoombaDto } from './dto/create-choomba.dto';
 import { UpdateChoombaDto } from './dto/update-choomba.dto';
+import { AuthGuard } from '@nestjs/passport';
 
 @Controller('choomba')
+@UseGuards(AuthGuard('jwt')) // JWT Token
 export class ChoombaController {
   constructor(private readonly choombaService: ChoombaService) {}
 
