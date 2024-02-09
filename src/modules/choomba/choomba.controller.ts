@@ -5,11 +5,12 @@ import { UpdateChoombaDto } from './dto/update-choomba.dto';
 import { AuthGuard } from '@nestjs/passport';
 
 @Controller('choomba')
-@UseGuards(AuthGuard('jwt')) // JWT Token
+// @UseGuards(AuthGuard('jwt')) // JWT Token a nivel de controlador
 export class ChoombaController {
   constructor(private readonly choombaService: ChoombaService) {}
 
   @Post()
+  @UseGuards(AuthGuard('jwt'))
   create(@Body() createChoombaDto: CreateChoombaDto) {
     return this.choombaService.create(createChoombaDto);
   }
@@ -25,11 +26,13 @@ export class ChoombaController {
   }
 
   @Patch(':id')
+  @UseGuards(AuthGuard('jwt'))
   update(@Param('id') id: string, @Body() updateChoombaDto: UpdateChoombaDto) {
     return this.choombaService.update(+id, updateChoombaDto);
   }
 
   @Delete(':id')
+  @UseGuards(AuthGuard('jwt'))
   remove(@Param('id') id: string) {
     return this.choombaService.remove(id);
   }
