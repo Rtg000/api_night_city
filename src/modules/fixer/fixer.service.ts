@@ -65,11 +65,12 @@ export class FixerService {
         distrito: true
       }
       });
-      return {
-        data: fixer,
-        message: 'Listado de fixers',
-        status: 200
-      }
+      // return {
+      //   data: fixer,
+      //   message: 'Listado de fixers',
+      //   status: 200
+      // }
+      return fixer
     }catch(error){
       throw new InternalServerErrorException('Error al listar fixers')
     }

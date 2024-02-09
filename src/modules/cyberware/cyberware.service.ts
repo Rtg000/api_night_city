@@ -54,11 +54,12 @@ export class CyberwareService {
   async findAll() {
     try {
       const cyberware = await this.cyberwareRepository.find()
-      return {
-        data: cyberware,
-        message: 'Listado de cyberwares',
-        status: 200
-      }
+      // return {
+      //   data: cyberware,
+      //   message: 'Listado de cyberwares',
+      //   status: 200
+      // }
+      return cyberware
     }catch(error){
       throw new InternalServerErrorException('Error al listar cyberwares')
     }

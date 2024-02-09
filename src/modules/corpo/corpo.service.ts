@@ -54,11 +54,12 @@ export class CorpoService {
   async findAll() {
     try {
       const corpo = await this.corpoRepository.find()
-      return {
-        data: corpo,
-        message: 'Listado de corpos',
-        status: 200
-      }
+      // return {
+      //   data: corpo,
+      //   message: 'Listado de corpos',
+      //   status: 200
+      // }
+      return corpo
     }catch(error){
       throw new InternalServerErrorException('Error al listar corpos')
     }

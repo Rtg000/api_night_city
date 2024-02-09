@@ -61,11 +61,12 @@ export class DistritoService {
           fixers: true
         }
       });
-      return {
-        data: distrito,
-        message: 'Listado de distritos',
-        status: 200
-      }
+      // return {
+      //   data: distrito,
+      //   message: 'Listado de distritos',
+      //   status: 200
+      // }
+      return distrito
     }catch(error){
       throw new InternalServerErrorException('Error al listar distritos')
     }

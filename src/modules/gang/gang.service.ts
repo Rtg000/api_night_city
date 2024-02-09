@@ -61,11 +61,12 @@ export class GangService {
           choombas: true
         }
       });
-      return {
-        data: gang,
-        message: 'Listado de gangs',
-        status: 200
-      }
+      // return {
+      //   data: gang,
+      //   message: 'Listado de gangs',
+      //   status: 200
+      // }
+      return gang
     }catch(error){
       throw new InternalServerErrorException('Error al listar gangs')
     }

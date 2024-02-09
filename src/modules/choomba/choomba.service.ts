@@ -66,11 +66,12 @@ export class ChoombaService {
           gang: true
         }
       });
-      return {
-        data: choomba,
-        message: 'Listado de choombas',
-        status: 200
-      }
+      // return {
+      //   data: choomba,
+      //   message: 'Listado de choombas',
+      //   status: 200
+      // }
+      return choomba
     }catch(error){
       throw new InternalServerErrorException('Error al listar choombas')
     }
