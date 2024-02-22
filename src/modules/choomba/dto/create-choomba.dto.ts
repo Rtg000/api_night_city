@@ -13,6 +13,9 @@ export class CreateChoombaDto {
     edad: number;
 
     @IsString()
+    img: string;
+
+    @IsString()
     @IsOptional()
     gang?: string;
 

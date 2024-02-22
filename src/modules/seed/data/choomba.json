@@ -3,96 +3,98 @@
     "id": "1",
     "nombre": "Johnny Silverhand",
     "gang": "",
-    "edad": 34
+    "edad": 34,
+    "img": "/../../../public/img/johnny_silverhand.png"
   },
   {
     "id": "2",
     "nombre": "Jackie Welles",
     "gang": "13",
-    "edad": 30
+    "edad": 30,
+    "img": "/../../../public/img/jackie_welles.png"
   },
   {
     "id": "3",
     "nombre": "Song So Mi",
     "gang": "9",
-    "edad": 31
+    "edad": 31,
+    "img": "/../../../public/img/songbird.png"
   },
   {
     "id": "4",
     "nombre": "Solomon Reed",
     "gang": "9",
-    "edad": null
+    "edad": null,
+    "img": "/../../../public/img/solomon_reed.png"
   },
   {
     "id": "5",
     "nombre": "Viktor Vektor",
     "gang": "",
-    "edad": null
+    "edad": null,
+    "img": "/../../../public/img/viktor_vektor.png"
   },
   {
     "id": "6",
     "nombre": "Panam Palmer",
     "gang": "10",
-    "edad": 26
+    "edad": 26,
+    "img": "/../../../public/img/panam_palmer.png"
   },
   {
     "id": "7",
     "nombre": "Judy Álvarez",
     "gang": "4",
-    "edad": 29
+    "edad": 29,
+    "img": "/../../../public/img/judy_alvarez.png"
   },
   {
     "id": "8",
-    "nombre": "David Martínez",
-    "gang": "1",
-    "edad": 18
+    "nombre": "Alena Xenakis",
+    "gang": "9",
+    "edad": null,
+    "img": "/../../../public/img/alena_xenakis.png"
   },
   {
     "id": "9",
-    "nombre": "Lucyna Kushinada",
-    "gang": "1",
-    "edad": 20
+    "nombre": "Mitch Anderson",
+    "gang": "10",
+    "edad": null,
+    "img": "/../../../public/img/mitch_anderson.png"
   },
   {
     "id": "10",
-    "nombre": "Alena Xenakis",
-    "gang": "9",
-    "edad": null
+    "nombre": "Misty Olszewski",
+    "gang": "",
+    "edad": 26,
+    "img": "/../../../public/img/misty_olszewski.png"
   },
   {
     "id": "11",
-    "nombre": "Mitch Anderson",
-    "gang": "10",
-    "edad": null
+    "nombre": "Claire Russel",
+    "gang": "1",
+    "edad": null,
+    "img": "/../../../public/img/claire_russell.png"
   },
   {
     "id": "12",
-    "nombre": "Misty Olszewski",
-    "gang": "",
-    "edad": 26
+    "nombre": "T-Bug",
+    "gang": "1",
+    "edad": null,
+    "img": "/../../../public/img/tbug.png"
   },
   {
     "id": "13",
-    "nombre": "Evelyn Parker",
-    "gang": "4",
-    "edad": null
+    "nombre": "Kerry Eurodyne",
+    "gang": "",
+    "edad": 89,
+    "img": "/../../../public/img/kerry_eurodyne.png"
   },
   {
     "id": "14",
-    "nombre": "T-Bug",
-    "gang": "1",
-    "edad": null
-  },
-  {
-    "id": "15",
-    "nombre": "Kerry Eurodyne",
-    "gang": "",
-    "edad": 89
-  },
-  {
-    "id": "16",
     "nombre": "Paco Torres",
     "gang": "8",
-    "edad": null
+    "edad": null,
+    "img": "/../../../public/img/paco_torres.png"
   }
 ]

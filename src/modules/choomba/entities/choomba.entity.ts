@@ -15,6 +15,9 @@ export class Choomba {
     })
     edad: number;
 
+    @Column()
+    img: string;
+
     @ManyToOne(
         () => Gang,
         (gang) => gang.choombas,
