@@ -4,97 +4,97 @@
     "nombre": "Johnny Silverhand",
     "gang": "",
     "edad": 34,
-    "img": "/img/johnny_silverhand.png"
+    "img": "/imgChoombas/johnny_silverhand.png"
   },
   {
     "id": "2",
     "nombre": "Jackie Welles",
     "gang": "13",
     "edad": 30,
-    "img": "/img/jackie_welles.png"
+    "img": "/imgChoombas/jackie_welles.png"
   },
   {
     "id": "3",
     "nombre": "Song So Mi",
     "gang": "9",
     "edad": 31,
-    "img": "/img/songbird.png"
+    "img": "/imgChoombas/songbird.png"
   },
   {
     "id": "4",
     "nombre": "Solomon Reed",
     "gang": "9",
     "edad": null,
-    "img": "/img/solomon_reed.png"
+    "img": "/imgChoombas/solomon_reed.png"
   },
   {
     "id": "5",
     "nombre": "Viktor Vektor",
     "gang": "",
     "edad": null,
-    "img": "/img/viktor_vektor.png"
+    "img": "/imgChoombas/viktor_vektor.png"
   },
   {
     "id": "6",
     "nombre": "Panam Palmer",
     "gang": "10",
     "edad": 26,
-    "img": "/img/panam_palmer.png"
+    "img": "/imgChoombas/panam_palmer.png"
   },
   {
     "id": "7",
     "nombre": "Judy Álvarez",
     "gang": "4",
     "edad": 29,
-    "img": "/img/judy_alvarez.png"
+    "img": "/imgChoombas/judy_alvarez.png"
   },
   {
     "id": "8",
     "nombre": "Alena Xenakis",
     "gang": "9",
     "edad": null,
-    "img": "/img/alena_xenakis.png"
+    "img": "/imgChoombas/alena_xenakis.png"
   },
   {
     "id": "9",
     "nombre": "Mitch Anderson",
     "gang": "10",
     "edad": null,
-    "img": "/img/mitch_anderson.png"
+    "img": "/imgChoombas/mitch_anderson.png"
   },
   {
     "id": "10",
     "nombre": "Misty Olszewski",
     "gang": "",
     "edad": 26,
-    "img": "/img/misty_olszewski.png"
+    "img": "/imgChoombas/misty_olszewski.png"
   },
   {
     "id": "11",
     "nombre": "Claire Russel",
     "gang": "1",
     "edad": null,
-    "img": "/img/claire_russell.png"
+    "img": "/imgChoombas/claire_russell.png"
   },
   {
     "id": "12",
     "nombre": "T-Bug",
     "gang": "1",
     "edad": null,
-    "img": "/img/tbug.png"
+    "img": "/imgChoombas/tbug.png"
   },
   {
     "id": "13",
     "nombre": "Kerry Eurodyne",
     "gang": "",
     "edad": 89,
-    "img": "/img/kerry_eurodyne.png"
+    "img": "/imgChoombas/kerry_eurodyne.png"
   },
   {
     "id": "14",
     "nombre": "Paco Torres",
     "gang": "8",
     "edad": null,
-    "img": "/img/paco_torres.png"
+    "img": "/imgChoombas/paco_torres.png"
   }
 ]

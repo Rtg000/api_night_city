@@ -13,6 +13,9 @@ export class CreateFixerDto {
     edad: number;
 
     @IsString()
+    img: string;
+
+    @IsString()
     @IsOptional()
     distrito?: string;
 

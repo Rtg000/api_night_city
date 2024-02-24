@@ -15,6 +15,9 @@ export class Fixer {
     })
     edad: number;
 
+    @Column()
+    img: string;
+
     @ManyToOne(
         () => Distrito,
         (distrito) => distrito.fixers,
