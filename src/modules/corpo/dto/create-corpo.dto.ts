@@ -8,4 +8,7 @@ export class CreateCorpoDto {
     @IsString()
     nombre: string;
 
+    @IsString()
+    img: string;
+
 }

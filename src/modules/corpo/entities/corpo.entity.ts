@@ -7,6 +7,9 @@ export class Corpo {
     id: string;
 
     @Column()
-    nombre: string
+    nombre: string;
+
+    @Column()
+    img: string;
 
 }

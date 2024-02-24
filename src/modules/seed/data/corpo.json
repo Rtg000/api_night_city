@@ -1,62 +1,72 @@
 [
   {
     "id": "1",
-    "nombre": "Arasaka"
+    "nombre": "Arasaka",
+    "img": "/imgCorpos/arasaka.png"
   },
   {
     "id": "2",
-    "nombre": "Militech"
+    "nombre": "Militech",
+    "img": "/imgCorpos/militech.png"
   },
   {
     "id": "3",
-    "nombre": "Zetatech"
+    "nombre": "Zetatech",
+    "img": "/imgCorpos/zetatech.png"
   },
   {
     "id": "4",
-    "nombre": "Biotechnica"
+    "nombre": "Biotechnica",
+    "img": "/imgCorpos/biotechnica.png"
   },
   {
     "id": "5",
-    "nombre": "Kang Tao"
+    "nombre": "Kang Tao",
+    "img": "/imgCorpos/kang_tao.png"
   },
   {
     "id": "6",
-    "nombre": "EBM"
+    "nombre": "EBM",
+    "img": "/imgCorpos/ebm.png"
   },
   {
     "id": "7",
-    "nombre": "Kiroshi"
+    "nombre": "Kiroshi",
+    "img": "/imgCorpos/kiroshi.png"
   },
   {
     "id": "8",
-    "nombre": "Dynalar"
+    "nombre": "Dynalar",
+    "img": "/imgCorpos/dynalar.png"
   },
   {
     "id": "9",
-    "nombre": "NetWatch"
+    "nombre": "NetWatch",
+    "img": "/imgCorpos/netwatch.png"
   },
   {
     "id": "10",
-    "nombre": "Trauma Team"
+    "nombre": "Trauma Team",
+    "img": "/imgCorpos/trauma_team.png"
   },
   {
     "id": "11",
-    "nombre": "QianT"
+    "nombre": "Tetratronic",
+    "img": "/imgCorpos/tetratronic.png"
   },
   {
     "id": "12",
-    "nombre": "Tetratronic"
+    "nombre": "Petrochem",
+    "img": "/imgCorpos/petrochem.png"
   },
   {
     "id": "13",
-    "nombre": "Petrochem"
+    "nombre": "Tsunami Defense Systems",
+    "img": "/imgCorpos/tsunami_defense_systems.png"
   },
   {
     "id": "14",
-    "nombre": "Tsunami Defense Systems"
-  },
-  {
-    "id": "15",
-    "nombre": "Raven Microcybernetics"
+    "nombre": "Raven Microcybernetics",
+    "img": "/imgCorpos/raven_microcybernetics.png"
   }
 ]
