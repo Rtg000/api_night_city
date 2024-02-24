@@ -1,54 +1,67 @@
 [
   {
     "id": "1",
-    "nombre": "Afterlife Mercs"
+    "nombre": "Afterlife Mercs",
+    "img": "/imgGangs/afterlife.png"
   },
   {
     "id": "2",
-    "nombre": "Maelstrom"
+    "nombre": "Maelstrom",
+    "img": "/imgGangs/maelstrom.png"
   },
   {
     "id": "3",
-    "nombre": "Tyger Claws"
+    "nombre": "Tyger Claws",
+    "img": "/imgGangs/tyger_claws.png"
   },
   {
     "id": "4",
-    "nombre": "The Mox"
+    "nombre": "The Mox",
+    "img": "/imgGangs/the_mox.png"
   },
   {
     "id": "5",
-    "nombre": "Voodoo Boys"
+    "nombre": "Voodoo Boys",
+    "img": "/imgGangs/voodoo_boys.png"
   },
   {
     "id": "6",
-    "nombre": "6th Street"
+    "nombre": "6th Street",
+    "img": "/imgGangs/6th_street.png"
   },
   {
     "id": "7",
-    "nombre": "Animals"
+    "nombre": "Animals",
+    "img": "/imgGangs/animals.png"
   },
   {
     "id": "8",
-    "nombre": "BARGHEST"
+    "nombre": "BARGHEST",
+    "img": "/imgGangs/barghest.png"
   },
   {
     "id": "9",
-    "nombre": "FIA"
+    "nombre": "FIA",
+    "img": "/imgGangs/fia.png"
   },
   {
     "id": "10",
-    "nombre": "Aldecaldos"
+    "nombre": "Aldecaldos",
+    "img": "/imgGangs/aldecaldos.png"
   },
   {
     "id": "11",
-    "nombre": "Raffen Shiv"
+    "nombre": "Wraiths",
+    "img": "/imgGangs/wraiths.png"
   },
   {
     "id": "12",
-    "nombre": "Scavengers"
+    "nombre": "Scavengers",
+    "img": "/imgGangs/scavengers.png"
   },
   {
     "id": "13",
-    "nombre": "Valentinos"
+    "nombre": "Valentinos",
+    "img": "/imgGangs/valentinos.png"
   }
 ]

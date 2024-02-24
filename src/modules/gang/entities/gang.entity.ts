@@ -10,6 +10,9 @@ export class Gang {
     @Column()
     nombre: string;
 
+    @Column()
+    img: string;
+
     @OneToMany(
         () => Choomba,
         (choomba) => choomba.gang,

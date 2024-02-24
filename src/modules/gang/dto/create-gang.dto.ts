@@ -8,4 +8,7 @@ export class CreateGangDto {
     @IsString()
     nombre: string;
 
+    @IsString()
+    img: string;
+
 }
