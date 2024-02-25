@@ -11,4 +11,7 @@ export class CreateCyberwareDto {
     @IsString()
     tipo: string;
 
+    @IsString()
+    img: string;
+
 }

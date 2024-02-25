@@ -12,4 +12,7 @@ export class Cyberware {
     @Column()
     tipo: string;
 
+    @Column()
+    img: string;
+
 }

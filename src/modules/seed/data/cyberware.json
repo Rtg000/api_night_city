@@ -2,207 +2,254 @@
   {
     "id": "1",
     "nombre": "Sandevistan",
-    "tipo": "Sistema Operativo"
+    "tipo": "Sistema Operativo",
+    "img": "/imgCyberware/sandevistan.png"
   },
   {
     "id": "2",
     "nombre": "Berserker",
-    "tipo": "Sistema Operativo"
+    "tipo": "Sistema Operativo",
+    "img": "/imgCyberware/berserker.png"
   },
   {
     "id": "3",
     "nombre": "Cyberdeck",
-    "tipo": "Sistema Operativo"
+    "tipo": "Sistema Operativo",
+    "img": "/imgCyberware/cyberdeck.png"
   },
   {
     "id": "4",
     "nombre": "Mejora de RAM",
-    "tipo": "Lóbulo Frontal"
+    "tipo": "Lóbulo Frontal",
+    "img": "/imgCyberware/mejora_ram.png"
   },
   {
     "id": "5",
     "nombre": "Ex-Disk",
-    "tipo": "Lóbulo Frontal"
+    "tipo": "Lóbulo Frontal",
+    "img": "/imgCyberware/exdisk.png"
   },
   {
     "id": "6",
     "nombre": "Axolotl",
-    "tipo": "Lóbulo Frontal"
+    "tipo": "Lóbulo Frontal",
+    "img": "/imgCyberware/axolotl.png"
   },
   {
     "id": "7",
     "nombre": "Bioconductor",
-    "tipo": "Lóbulo Frontal"
+    "tipo": "Lóbulo Frontal",
+    "img": "/imgCyberware/bioconductor.png"
   },
   {
     "id": "8",
     "nombre": "Reasignador de RAM",
-    "tipo": "Lóbulo Frontal"
+    "tipo": "Lóbulo Frontal",
+    "img": "/imgCyberware/reasignador_ram.png"
   },
   {
     "id": "9",
     "nombre": "Núcleo Mecatrónico",
-    "tipo": "Lóbulo Frontal"
+    "tipo": "Lóbulo Frontal",
+    "img": "/imgCyberware/nucleo_mecatronico.png"
   },
   {
     "id": "10",
     "nombre": "Ópticas Kiroshi",
-    "tipo": "Cara"
+    "tipo": "Cara",
+    "img": "/imgCyberware/opticas_kiroshi.png"
   },
   {
     "id": "11",
     "nombre": "Brazo de Gorila",
-    "tipo": "Brazo"
+    "tipo": "Brazo",
+    "img": "/imgCyberware/brazos_gorilla.png"
   },
   {
     "id": "12",
     "nombre": "Monocable",
-    "tipo": "Brazo"
+    "tipo": "Brazo",
+    "img": "/imgCyberware/monocable.png"
   },
 
   {
     "id": "13",
     "nombre": "Garras de Mantis",
-    "tipo": "Brazo"
+    "tipo": "Brazo",
+    "img": "/imgCyberware/garras_mantis.png"
   },
   {
     "id": "14",
     "nombre": "Sistema de Lanzamiento de Proyectiles",
-    "tipo": "Brazo"
+    "tipo": "Brazo",
+    "img": "/imgCyberware/sistema_lanzamiento_proyectiles.png"
   },
   {
     "id": "15",
     "nombre": "Coprocesador Balístico",
-    "tipo": "Manos"
+    "tipo": "Manos",
+    "img": "/imgCyberware/coprocesador_balistico.png"
   },
   {
     "id": "16",
     "nombre": "Microgenerador",
-    "tipo": "Manos"
+    "tipo": "Manos",
+    "img": "/imgCyberware/microgenerador.png"
   },
   {
     "id": "17",
     "nombre": "Smart Link",
-    "tipo": "Manos"
+    "tipo": "Manos",
+    "img": "/imgCyberware/smart_link.png"
   },
   {
     "id": "18",
     "nombre": "Microrotores",
-    "tipo": "Sistema Circulatorio"
+    "tipo": "Sistema Circulatorio",
+    "img": "/imgCyberware/microrotores.png"
   },  
   {
     "id": "19",
     "nombre": "Heal-On-Kill",
-    "tipo": "Sistema Circulatorio"
+    "tipo": "Sistema Circulatorio",
+    "img": "/imgCyberware/heal_on_kill.png"
   },
   {
     "id": "20",
     "nombre": "Biomonitor",
-    "tipo": "Sistema Circulatorio"
+    "tipo": "Sistema Circulatorio",
+    "img": "/imgCyberware/biomonitor.png"
   },
   {
     "id": "21",
     "nombre": "Bomba de Sangre",
-    "tipo": "Sistema Circulatorio"
+    "tipo": "Sistema Circulatorio",
+    "img": "/imgCyberware/bomba_sangre.png"
   },
   {
     "id": "22",
     "nombre": "Segundo Corazón",
-    "tipo": "Sistema Circulatorio"
+    "tipo": "Sistema Circulatorio",
+    "img": "/imgCyberware/segundo_corazon.png"
   },
   {
     "id": "23",
     "nombre": "Neofibra",
-    "tipo": "Sistema Nervioso"
+    "tipo": "Sistema Nervioso",
+    "img": "/imgCyberware/neofibra.png"
   },
   {
     "id": "24",
     "nombre": "Kerenzikov",
-    "tipo": "Sistema Nervioso"
+    "tipo": "Sistema Nervioso",
+    "img": "/imgCyberware/kerenzikov.png"
   },
   {
     "id": "25",
     "nombre": "Acelerador Sináptico",
-    "tipo": "Sistema Nervioso"
+    "tipo": "Sistema Nervioso",
+    "img": "/imgCyberware/acelerador_sinaptico.png"
   },
   {
     "id": "26",
     "nombre": "Chitina",
-    "tipo": "Sistema Integumentario"
+    "tipo": "Sistema Integumentario",
+    "img": "/imgCyberware/chitina.png"
   },
   {
     "id": "27",
     "nombre": "Editor del Dolor",
-    "tipo": "Sistema Integumentario"
+    "tipo": "Sistema Integumentario",
+    "img": "/imgCyberware/editor_dolor.png"
   },
   {
     "id": "28",
     "nombre": "Adaptador Celular",
-    "tipo": "Sistema Integumentario"
+    "tipo": "Sistema Integumentario",
+    "img": "/imgCyberware/adaptador_celular.png"
   },
   {
     "id": "29",
     "nombre": "Camuflaje Óptico",
-    "tipo": "Sistema Integumentario"
+    "tipo": "Sistema Integumentario",
+    "img": "/imgCyberware/camuflaje_optico.png"
   },
   {
     "id": "30",
     "nombre": "ProxiShield",
-    "tipo": "Sistema Integumentario"
+    "tipo": "Sistema Integumentario",
+    "img": "/imgCyberware/proxyshield.png"
   },
   {
     "id": "31",
     "nombre": "Defenzikov",
-    "tipo": "Sistema Integumentario"
+    "tipo": "Sistema Integumentario",
+    "img": "/imgCyberware/defenzikov.png"
   },
   {
     "id": "32",
     "nombre": "Tendones Jenkins",
-    "tipo": "Piernas"
+    "tipo": "Piernas",
+    "img": "/imgCyberware/tendones_jenkins.png"
   },
   {
     "id": "33",
     "nombre": "Tobillos Fortalecidos",
-    "tipo": "Piernas"
+    "tipo": "Piernas",
+    "img": "/imgCyberware/tobillos_fortalecidos.png"
   },
   {
     "id": "34",
     "nombre": "Sistema de Ligamentos Leeroy",
-    "tipo": "Piernas"
+    "tipo": "Piernas",
+    "img": "/imgCyberware/sistema_ligamentos_leeroy.png"
   },
   {
     "id": "35",
     "nombre": "Patas de Lince",
-    "tipo": "Piernas"
+    "tipo": "Piernas",
+    "img": "/imgCyberware/patas_lince.png"
   },
   {
     "id": "36",
     "nombre": "Tendones Reforzados",
-    "tipo": "Piernas"
+    "tipo": "Piernas",
+    "img": "/imgCyberware/tendones_reforzados.png"
   },
   {
     "id": "37",
     "nombre": "Para Bellumn",
-    "tipo": "Esqueleto"
+    "tipo": "Esqueleto",
+    "img": "/imgCyberware/para_bellum.png"
   },
   {
     "id": "38",
     "nombre": "Esqueleto Epimórfico",
-    "tipo": "Esqueleto"
+    "tipo": "Esqueleto",
+    "img": "/imgCyberware/esqueleto_epimorfico.png"
   },
   {
     "id": "39",
     "nombre": "Escarabajo",
-    "tipo": "Esqueleto"
+    "tipo": "Esqueleto",
+    "img": "/imgCyberware/escarabajo.png"
   },
   {
     "id": "40",
     "nombre": "Huesos de Titanio",
-    "tipo": "Esqueleto"
+    "tipo": "Esqueleto",
+    "img": "/imgCyberware/huesos_titanio.png"
   },
   {
     "id": "41",
     "nombre": "Médula Densa",
-    "tipo": "Esqueleto"
+    "tipo": "Esqueleto",
+    "img": "/imgCyberware/medula_densa.png"
+  },
+  {
+    "id": "42",
+    "nombre": "Afinador Cuántico",
+    "tipo": "Lóbulo Frontal",
+    "img": "/imgCyberware/afinador_cuantico.png"
   }
 ]  
