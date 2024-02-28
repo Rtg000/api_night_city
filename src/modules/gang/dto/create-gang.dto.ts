@@ -11,4 +11,7 @@ export class CreateGangDto {
     @IsString()
     img: string;
 
+    @IsString()
+    descripcion: string;
+
 }

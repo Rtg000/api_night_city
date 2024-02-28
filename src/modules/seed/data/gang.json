@@ -2,66 +2,79 @@
   {
     "id": "1",
     "nombre": "Afterlife Mercs",
-    "img": "/imgGangs/afterlife.png"
+    "img": "/imgGangs/afterlife.png",
+    "descripcion": "Los mercenarios del Afterlife son el alma de Night City, unidos únicamente por el dinero y su reputación en las calles.\n\nEl Aferlife es el bar y punto de reunión más importante de todos los mercenarios de Night City, todo mercenario que se precie ha oído hablar de este bar. Propiedad de Rogue Amendiares, el Afterlife funciona como una base estratégica donde los fixers y mercenarios de todo Night City se reunen para organizar y planear sus contratos."
   },
   {
     "id": "2",
     "nombre": "Maelstrom",
-    "img": "/imgGangs/maelstrom.png"
+    "img": "/imgGangs/maelstrom.png",
+    "descripcion": "Los Maelstrom son una banda compuesta de lunáticos sin escrúpulos unidos por su locura y amor al cromo y los implantes cibernéticos.\n\nEs fácil distinguir a un Maelstrom de alguien que no lo es, el precio por unirse a esta banda es sustituir tus ojos y nariz por contrapartes cibernéticas que emiten una intensa luz roja."
   },
   {
     "id": "3",
     "nombre": "Tyger Claws",
-    "img": "/imgGangs/tyger_claws.png"
+    "img": "/imgGangs/tyger_claws.png",
+    "descripcion": "Los Tyger Claws son una banda originaria de Japón que se ha establecido en Night City.\n\nTodos sus miembros son asiáticos, estos se niegan aceptar la cultura de Night City que ellos consideran inferior. Importan su idioma, cultura y armamento de Japón y son firmemente territoriales."
   },
   {
     "id": "4",
     "nombre": "The Mox",
-    "img": "/imgGangs/the_mox.png"
+    "img": "/imgGangs/the_mox.png",
+    "descripcion": "Los Mox son una banda de 'muñecas', hombres y mujeres que trabajan en el bar 'The Mox' que se han aliado para defender su integridad y sus intereses frente a los demás. Son una agrupación que no tiene mucho interés es otras bandas ni los negocios que contraen, su principal objetivo es defender su territorio y su gente."
   },
   {
     "id": "5",
     "nombre": "Voodoo Boys",
-    "img": "/imgGangs/voodoo_boys.png"
+    "img": "/imgGangs/voodoo_boys.png",
+    "descripcion": "Los Hijos del Vudú son una peligrosa banda compuesta completamente de inmigrantes de Haití.\n\nEs una banda que opera principalmente en la red, entre sus miembros se encuentran muchos netrunners de gran habilidad. Son una banda extremadamente territorial que nunca sale físicamente del distrito de Pacífica, sin embargo en la red terrorizan a todo el que se encuentre en su camino. El objetivo principal de esta banda es ir más allá del Muro Negro y combaten a NetWatch para conseguirlo."
   },
   {
     "id": "6",
     "nombre": "6th Street",
-    "img": "/imgGangs/6th_street.png"
+    "img": "/imgGangs/6th_street.png",
+    "descripcion": "La banda de la Calle 6 está compuesto de patriotas estadounidenses que se regocijan en su patriotismo.\n\nEsta banda emplea métodos, costumbres y tradiciones militares norteamericanas, muchos de sus integrantes son veteranos de guerra y actúan como tal."
   },
   {
     "id": "7",
     "nombre": "Animals",
-    "img": "/imgGangs/animals.png"
+    "img": "/imgGangs/animals.png",
+    "descripcion": "Los animales son una banda compuesta por fanáticos del boxeo obsesionados con modificar sus cuerpos con implantes para alcanzar el pináculo del potencial del cuerpo humano y la fuerza bruta.\n\nSon una banda que principalmente realiza el trabajo sucio de otras bandas y proveen el músculo necesario que otros necesitan para sus contratos. En su tiempo libre es normal entontrarlos boxeando entre sí en distintos lugares de Night City."
   },
   {
     "id": "8",
     "nombre": "BARGHEST",
-    "img": "/imgGangs/barghest.png"
+    "img": "/imgGangs/barghest.png",
+    "descripcion": "BARGHEST es una banda que domina con puño hierro sobre el subdistrito de Dogtown en Pacífica.\n\nSon implacables, están altamente armados y no tienen escrúpulos, incluso el departamento policial de Night City se mantiene alejado de ellos. se atreve a meterse con ellos. Su principal negocio es el contrabando de armamento ilegal a gran escala."
   },
   {
     "id": "9",
     "nombre": "FIA",
-    "img": "/imgGangs/fia.png"
+    "img": "/imgGangs/fia.png",
+    "descripcion": "La Federal Intelligence Agency (FIA) es una agencia de los Nuevos Estados Unidos de América (NUSA) que recientemente se ha visto implicada en Night City.\n\nSon los sucesores espirituales de la CIA, lo que haven frente a los ojos del público general frente a lo que realmente hacen son dos cosas totalmente distintas."
   },
   {
     "id": "10",
     "nombre": "Aldecaldos",
-    "img": "/imgGangs/aldecaldos.png"
+    "img": "/imgGangs/aldecaldos.png",
+    "descripcion": "Los Aldecalos son una de las muchas familias de nómadas que viven en campamentos en las Badlands lejos del resto de la civilización.\n\nLos Aldecaldos no son como el resto de nómadas, ellos están más dispuestos a contactar y hacer negocios con bandas y corporacion de Night City que el resto de nómadas."
   },
   {
     "id": "11",
     "nombre": "Wraiths",
-    "img": "/imgGangs/wraiths.png"
+    "img": "/imgGangs/wraiths.png",
+    "descripcion": "Los Wraiths son una de las muchas bandas nómadas de las Badlands que componen los Raffen Shiv.\n\nLos Wraiths son criminales, forajidos que se dedican principalmente a las incursiones, saqueo y extorsión a familias nómadas y a cualquier que encuentren en su camino."
   },
   {
     "id": "12",
     "nombre": "Scavengers",
-    "img": "/imgGangs/scavengers.png"
+    "img": "/imgGangs/scavengers.png",
+    "descripcion": "Los Chatarreros es una de las bandas más temidas y odiadas a partes iguales de todo Night City.\n\nSon criminales, se mueven en las sombras, siempre ocultan su identidad cuando hacen acto de presencia. Los negocios que los chatarreros manejan son los más turbios y los que nadie más se dedica, tales como contrabando de implantes cibernéticos, secuestro y extracción ilegal de implantes cibernéticos, extorsión, grabaciones ilegales de torturas, asesinatos y mucho más."
   },
   {
     "id": "13",
     "nombre": "Valentinos",
-    "img": "/imgGangs/valentinos.png"
+    "img": "/imgGangs/valentinos.png",
+    "descripcion": "Los valentinos son una banda de origen latinoamericano que se ha establecido en Night City.\n\nSon mas bien un cartel que una banda, mantienen sus creencias católicas, costumbres y tradiciones de latinoamérica y valoran su respeto, hermandad y honor más que otras bandas. Entre sus negocios se encuentran el contrabando de estupefacientes."
   }
 ]

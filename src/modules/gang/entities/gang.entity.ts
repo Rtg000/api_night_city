@@ -13,6 +13,9 @@ export class Gang {
     @Column()
     img: string;
 
+    @Column()
+    descripcion: string;
+
     @OneToMany(
         () => Choomba,
         (choomba) => choomba.gang,
