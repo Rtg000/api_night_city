@@ -15,4 +15,7 @@ export class CreateDistritoDto {
     @IsOptional()
     subdistrito: string[];
 
+    @IsString()
+    img: string;
+
 }

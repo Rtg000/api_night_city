@@ -7,7 +7,8 @@
             "Kabuki",
             "Little China",
             "Northside"
-        ]
+        ],
+        "img": "/imgDistritos/watson.png"
     },
     {
         "id": "2",
@@ -16,7 +17,8 @@
             "El Glen",
             "Vista del Rey",
             "Wellsprings"
-        ]
+        ],
+        "img": "/imgDistritos/heywood.png"
     },
     {
         "id": "3",
@@ -25,7 +27,8 @@
             "Japantown",
             "Charter Hill",
             "North Oak"
-        ]
+        ],
+        "img": "/imgDistritos/westbrook.png"
     },
     {
         "id": "4",
@@ -33,7 +36,8 @@
         "subdistrito":[
             "Corpo Plaza",
             "Downtown"
-        ]
+        ],
+        "img": "/imgDistritos/city_center.png"
     },
     {
         "id": "5",
@@ -41,7 +45,8 @@
         "subdistrito":[
             "Arroyo",
             "Rancho Coronado"
-        ]
+        ],
+        "img": "/imgDistritos/santo_domingo.png"
     },
     {
         "id": "6",
@@ -50,11 +55,15 @@
             "Coastview",
             "West Wind State",
             "Dogtown"
-        ]
+        ],
+        "img": "/imgDistritos/pacifica.png"
     },
     {
         "id": "7",
         "nombre": "Badlands",
-        "subdistrito": null
+        "subdistrito":[
+            null
+        ],
+        "img": "/imgDistritos/badlands.png"
     }
 ]

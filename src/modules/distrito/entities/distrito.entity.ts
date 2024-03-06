@@ -16,6 +16,9 @@ export class Distrito {
     })
     subdistrito: string[];
 
+    @Column()
+    img: string;
+
     @OneToMany(
         () => Fixer,
         (fixer) => fixer.distrito,
