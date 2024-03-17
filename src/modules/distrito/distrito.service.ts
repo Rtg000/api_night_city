@@ -81,7 +81,21 @@ export class DistritoService {
     }
   }
 
-  update(id: number, updateDistritoDto: UpdateDistritoDto) {
-    return `This action updates a #${id} distrito`;
+  async update(id: string, updateDistritoDto: UpdateDistritoDto) {
+    try {
+      const distrito = await this.distritoRepository.findOne({
+        where: { id }
+      })
+      this.distritoRepository.merge(distrito, updateDistritoDto);
+      await this.distritoRepository.save(distrito);
+      return {
+        message: `Distrito con ID ${id} actualizado correctamente`,
+        data: distrito,
+        status: 200,
+      };
+    } catch (error) {
+      throw new InternalServerErrorException('Error al actualizar distrito.');
+    }
   }
+  
 }

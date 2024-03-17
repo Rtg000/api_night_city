@@ -26,7 +26,7 @@ export class DistritoController {
 
   @Patch(':id')
   update(@Param('id') id: string, @Body() updateDistritoDto: UpdateDistritoDto) {
-    return this.distritoService.update(+id, updateDistritoDto);
+    return this.distritoService.update(id, updateDistritoDto);
   }
 
   @Delete(':id')
