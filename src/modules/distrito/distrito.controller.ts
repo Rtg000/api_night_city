@@ -2,7 +2,9 @@ import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/commo
 import { DistritoService } from './distrito.service';
 import { CreateDistritoDto } from './dto/create-distrito.dto';
 import { UpdateDistritoDto } from './dto/update-distrito.dto';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('distrito')
 @Controller('distrito')
 export class DistritoController {
   constructor(private readonly distritoService: DistritoService) {}

@@ -2,7 +2,9 @@ import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/commo
 import { CyberwareService } from './cyberware.service';
 import { CreateCyberwareDto } from './dto/create-cyberware.dto';
 import { UpdateCyberwareDto } from './dto/update-cyberware.dto';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('cyberware')
 @Controller('cyberware')
 export class CyberwareController {
   constructor(private readonly cyberwareService: CyberwareService) {}

@@ -2,7 +2,9 @@ import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/commo
 import { CorpoService } from './corpo.service';
 import { CreateCorpoDto } from './dto/create-corpo.dto';
 import { UpdateCorpoDto } from './dto/update-corpo.dto';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('corpo')
 @Controller('corpo')
 export class CorpoController {
   constructor(private readonly corpoService: CorpoService) {}

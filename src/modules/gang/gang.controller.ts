@@ -2,7 +2,9 @@ import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/commo
 import { GangService } from './gang.service';
 import { CreateGangDto } from './dto/create-gang.dto';
 import { UpdateGangDto } from './dto/update-gang.dto';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('gang')
 @Controller('gang')
 export class GangController {
   constructor(private readonly gangService: GangService) {}

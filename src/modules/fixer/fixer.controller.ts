@@ -2,7 +2,9 @@ import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/commo
 import { FixerService } from './fixer.service';
 import { CreateFixerDto } from './dto/create-fixer.dto';
 import { UpdateFixerDto } from './dto/update-fixer.dto';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('fixer')
 @Controller('fixer')
 export class FixerController {
   constructor(private readonly fixerService: FixerService) {}
@@ -21,7 +23,7 @@ export class FixerController {
   findOne(@Param('id') id: string) {
     return this.fixerService.findOne(id);
   }
-
+s
   @Patch(':id')
   update(@Param('id') id: string, @Body() updateFixerDto: UpdateFixerDto) {
     return this.fixerService.update(+id, updateFixerDto);

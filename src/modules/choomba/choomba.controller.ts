@@ -3,7 +3,9 @@ import { ChoombaService } from './choomba.service';
 import { CreateChoombaDto } from './dto/create-choomba.dto';
 import { UpdateChoombaDto } from './dto/update-choomba.dto';
 import { AuthGuard } from '@nestjs/passport';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('choomba')
 @Controller('choomba')
 // @UseGuards(AuthGuard('jwt')) // JWT Token a nivel de controlador
 export class ChoombaController {
