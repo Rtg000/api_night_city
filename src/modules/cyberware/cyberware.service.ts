@@ -74,7 +74,21 @@ export class CyberwareService {
     }
   }
 
-  update(id: number, updateCyberwareDto: UpdateCyberwareDto) {
-    return `This action updates a #${id} cyberware`;
+  async update(id: string, updateCyberwareDto: UpdateCyberwareDto) {
+    try {
+      const cyberware = await this.cyberwareRepository.findOne({
+        where: { id }
+      })
+      this.cyberwareRepository.merge(cyberware, updateCyberwareDto);
+      await this.cyberwareRepository.save(cyberware);
+      return {
+        message: `Cyberware con ID ${id} actualizado correctamente`,
+        data: cyberware,
+        status: 200,
+      };
+    } catch (error) {
+      throw new InternalServerErrorException('Error al actualizar cyberware.');
+    }
   }
+
 }

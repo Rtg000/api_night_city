@@ -26,7 +26,7 @@ export class CyberwareController {
 
   @Patch(':id')
   update(@Param('id') id: string, @Body() updateCyberwareDto: UpdateCyberwareDto) {
-    return this.cyberwareService.update(+id, updateCyberwareDto);
+    return this.cyberwareService.update(id, updateCyberwareDto);
   }
 
   @Delete(':id')
