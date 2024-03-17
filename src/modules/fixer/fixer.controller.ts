@@ -26,7 +26,7 @@ export class FixerController {
 s
   @Patch(':id')
   update(@Param('id') id: string, @Body() updateFixerDto: UpdateFixerDto) {
-    return this.fixerService.update(+id, updateFixerDto);
+    return this.fixerService.update(id, updateFixerDto);
   }
 
   @Delete(':id')

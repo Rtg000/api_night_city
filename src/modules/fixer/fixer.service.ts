@@ -85,7 +85,21 @@ export class FixerService {
     }
   }
 
-  update(id: number, updateFixerDto: UpdateFixerDto) {
-    return `This action updates a #${id} fixer`;
+  async update(id: string, updateFixerDto: UpdateFixerDto) {
+    try {
+      const fixer = await this.fixerRepository.findOne({
+        where: { id }
+      })
+      // this.fixerRepository.merge(fixer, updateFixerDto);
+      await this.fixerRepository.save(fixer);
+      return {
+        message: `Fixer con ID ${id} actualizado correctamente`,
+        data: fixer,
+        status: 200,
+      };
+    } catch (error) {
+      throw new InternalServerErrorException('Error al actualizar fixer.');
+    }
   }
+  
 }
