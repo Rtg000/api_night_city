@@ -81,7 +81,21 @@ export class GangService {
     }
   }
 
-  update(id: number, updateGangDto: UpdateGangDto) {
-    return `This action updates a #${id} gang`;
+  async update(id: string, updateGangDto: UpdateGangDto) {
+    try {
+      const gang = await this.gangRepository.findOne({
+        where: { id }
+      })
+      this.gangRepository.merge(gang, updateGangDto);
+      await this.gangRepository.save(gang);
+      return {
+        message: `Gang con ID ${id} actualizado correctamente`,
+        data: gang,
+        status: 200,
+      };
+    } catch (error) {
+      throw new InternalServerErrorException('Error al actualizar gang.');
+    }
   }
+
 }

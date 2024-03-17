@@ -26,7 +26,7 @@ export class GangController {
 
   @Patch(':id')
   update(@Param('id') id: string, @Body() updateGangDto: UpdateGangDto) {
-    return this.gangService.update(+id, updateGangDto);
+    return this.gangService.update(id, updateGangDto);
   }
 
   @Delete(':id')
