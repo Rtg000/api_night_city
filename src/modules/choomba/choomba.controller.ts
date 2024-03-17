@@ -30,7 +30,7 @@ export class ChoombaController {
   @Patch(':id')
   @UseGuards(AuthGuard('jwt'))
   update(@Param('id') id: string, @Body() updateChoombaDto: UpdateChoombaDto) {
-    return this.choombaService.update(+id, updateChoombaDto);
+    return this.choombaService.update(id, updateChoombaDto);
   }
 
   @Delete(':id')

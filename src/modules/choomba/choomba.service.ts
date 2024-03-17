@@ -86,8 +86,21 @@ export class ChoombaService {
     }
   }
 
-  update(id: number, updateChoombaDto: UpdateChoombaDto) {
-    return `This action updates a #${id} choomba`;
+  async update(id: string, updateChoombaDto: UpdateChoombaDto) {
+    try {
+      const choomba = await this.choombaRepository.findOne({
+        where: { id }
+      })
+      // this.choombaRepository.merge(choomba, updateChoombaDto);
+      await this.choombaRepository.save(choomba);
+      return {
+        message: `Choomba con ID ${id} actualizado correctamente`,
+        data: choomba,
+        status: 200,
+      };
+    } catch (error) {
+      throw new InternalServerErrorException('Error al actualizar choomba.');
+    }
   }
 
 }
