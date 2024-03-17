@@ -26,7 +26,7 @@ export class CorpoController {
 
   @Patch(':id')
   update(@Param('id') id: string, @Body() updateCorpoDto: UpdateCorpoDto) {
-    return this.corpoService.update(+id, updateCorpoDto);
+    return this.corpoService.update(id, updateCorpoDto);
   }
 
   @Delete(':id')

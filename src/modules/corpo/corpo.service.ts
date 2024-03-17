@@ -74,7 +74,21 @@ export class CorpoService {
     }
   }
 
-  update(id: number, updateCorpoDto: UpdateCorpoDto) {
-    return `This action updates a #${id} corpo`;
+  async update(id: string, updateCorpoDto: UpdateCorpoDto) {
+    try {
+      const corpo = await this.corpoRepository.findOne({
+        where: { id }
+      })
+      this.corpoRepository.merge(corpo, updateCorpoDto);
+      await this.corpoRepository.save(corpo);
+      return {
+        message: `Corpo con ID ${id} actualizado correctamente`,
+        data: corpo,
+        status: 200,
+      };
+    } catch (error) {
+      throw new InternalServerErrorException('Error al actualizar corpo.');
+    }
   }
+
 }
