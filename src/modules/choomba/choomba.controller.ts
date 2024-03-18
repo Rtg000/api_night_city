@@ -12,7 +12,7 @@ export class ChoombaController {
   constructor(private readonly choombaService: ChoombaService) {}
 
   @Post()
-  @UseGuards(AuthGuard('jwt'))
+  // @UseGuards(AuthGuard('jwt'))
   create(@Body() createChoombaDto: CreateChoombaDto) {
     return this.choombaService.create(createChoombaDto);
   }
@@ -28,13 +28,13 @@ export class ChoombaController {
   }
 
   @Patch(':id')
-  @UseGuards(AuthGuard('jwt'))
+  // @UseGuards(AuthGuard('jwt'))
   update(@Param('id') id: string, @Body() updateChoombaDto: UpdateChoombaDto) {
     return this.choombaService.update(id, updateChoombaDto);
   }
 
   @Delete(':id')
-  @UseGuards(AuthGuard('jwt'))
+  // @UseGuards(AuthGuard('jwt'))
   remove(@Param('id') id: string) {
     return this.choombaService.remove(id);
   }
